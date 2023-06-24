@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="heeft"
+    id="id-9e33a846-9576-4387-8887-cf26687caa07"
+    directed="true">
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="ggm-target-guid"
+      value="{F8283401-70F8-41b8-A97C-32A9074AD4B1}"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-8417459e-2193-44a2-a1ac-38c39ea93cbf"/>
+  <properties
+      key="ggm-source-guid"
+      value="{8417459E-2193-44a2-A1AC-38C39EA93CBF}"/>
+  <properties
+      key="ggm-guid"
+      value="{9E33A846-9576-4387-8887-CF26687CAA07}"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-f8283401-70f8-41b8-a97c-32a9074ad4b1"/>
+  <properties
+      key="gemma-guid"
+      value="id-9e33a846-9576-4387-8887-cf26687caa07"/>
+  <properties
+      key="Object ID"
+      value="b987f0c9-05fe-445c-a4e6-ba4127d52a58"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-8417459e-2193-44a2-a1ac-38c39ea93cbf.xml#id-8417459e-2193-44a2-a1ac-38c39ea93cbf"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-f8283401-70f8-41b8-a97c-32a9074ad4b1.xml#id-f8283401-70f8-41b8-a97c-32a9074ad4b1"/>
+</archimate:AssociationRelationship>

@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="soort verlof"
+    id="id-3edeec77-46de-47eb-ad90-10aa60a69f0c"
+    directed="true">
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="ggm-target-guid"
+      value="{ED741EE1-E773-40e3-B0E6-8D9886EB792F}"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-ed741ee1-e773-40e3-b0e6-8d9886eb792f"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="gemma-guid"
+      value="id-3edeec77-46de-47eb-ad90-10aa60a69f0c"/>
+  <properties
+      key="ggm-source-guid"
+      value="{D04135BF-C2F0-46dd-B332-F1BE36C358EF}"/>
+  <properties
+      key="ggm-guid"
+      value="{3EDEEC77-46DE-47eb-AD90-10AA60A69F0C}"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-d04135bf-c2f0-46dd-b332-f1be36c358ef"/>
+  <properties
+      key="Object ID"
+      value="85e27e36-3f3c-49df-bedb-91eedebaf56a"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d04135bf-c2f0-46dd-b332-f1be36c358ef.xml#id-d04135bf-c2f0-46dd-b332-f1be36c358ef"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-ed741ee1-e773-40e3-b0e6-8d9886eb792f.xml#id-ed741ee1-e773-40e3-b0e6-8d9886eb792f"/>
+</archimate:AssociationRelationship>

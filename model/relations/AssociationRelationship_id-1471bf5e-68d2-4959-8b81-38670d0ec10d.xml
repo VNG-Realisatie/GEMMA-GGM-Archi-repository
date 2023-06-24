@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="verwijst naar"
+    id="id-1471bf5e-68d2-4959-8b81-38670d0ec10d"
+    directed="true">
+  <properties
+      key="ggm-target-guid"
+      value="{9F4E12E4-B228-4931-AC83-1B1F60958A89}"/>
+  <properties
+      key="ggm-source-guid"
+      value="{44F0CC4A-59AF-44a8-AF0B-FF204C93E829}"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="ggm-guid"
+      value="{1471BF5E-68D2-4959-8B81-38670D0EC10D}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-9f4e12e4-b228-4931-ac83-1b1f60958a89"/>
+  <properties
+      key="gemma-guid"
+      value="id-1471bf5e-68d2-4959-8b81-38670d0ec10d"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-44f0cc4a-59af-44a8-af0b-ff204c93e829"/>
+  <properties
+      key="Object ID"
+      value="17c21468-e0dc-480d-b1f9-786635896bd4"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-44f0cc4a-59af-44a8-af0b-ff204c93e829.xml#id-44f0cc4a-59af-44a8-af0b-ff204c93e829"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9f4e12e4-b228-4931-ac83-1b1f60958a89.xml#id-9f4e12e4-b228-4931-ac83-1b1f60958a89"/>
+</archimate:AssociationRelationship>

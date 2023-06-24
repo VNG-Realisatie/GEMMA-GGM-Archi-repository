@@ -1,0 +1,44 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="heeft plaatsgevonden in"
+    id="id-7e3cd65c-48e2-4879-b654-aa2e4ca0503f"
+    documentation="De naam van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar de persoon is overleden. "
+    directed="true">
+  <properties
+      key="gemma-target-guid"
+      value="id-039aff88-f5f7-4c1a-b7e4-1bdfc495f67a"/>
+  <properties
+      key="gemma-guid"
+      value="id-7e3cd65c-48e2-4879-b654-aa2e4ca0503f"/>
+  <properties
+      key="ggm-guid"
+      value="{7E3CD65C-48E2-4879-B654-AA2E4CA0503F}"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-26bcba8b-c96c-4fc1-8cc3-40698e0fb71e"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="ggm-target-guid"
+      value="{039AFF88-F5F7-4c1a-B7E4-1BDFC495F67A}"/>
+  <properties
+      key="ggm-source-guid"
+      value="{26BCBA8B-C96C-4fc1-8CC3-40698E0FB71E}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="Object ID"
+      value="c4830b13-363e-4d9f-87dd-64a63692eeca"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-26bcba8b-c96c-4fc1-8cc3-40698e0fb71e.xml#id-26bcba8b-c96c-4fc1-8cc3-40698e0fb71e"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-039aff88-f5f7-4c1a-b7e4-1bdfc495f67a.xml#id-039aff88-f5f7-4c1a-b7e4-1bdfc495f67a"/>
+</archimate:AssociationRelationship>

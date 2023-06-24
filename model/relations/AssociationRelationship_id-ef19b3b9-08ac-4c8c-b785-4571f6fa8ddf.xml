@@ -1,0 +1,41 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="heeft"
+    id="id-ef19b3b9-08ac-4c8c-b785-4571f6fa8ddf"
+    documentation="&lt;font color=&quot;#610e6a&quot;>De STATUSTYPEn die bereikt kunnen worden bij behandeling van ZAAKen van het ZAAKTYPE.&lt;/font>"
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{EF19B3B9-08AC-4c8c-B785-4571F6FA8DDF}"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-aa496b7b-913c-40fd-943e-52f1a6e89440"/>
+  <properties
+      key="ggm-source-guid"
+      value="{7210A379-17EE-4143-A106-ECD9414B2A0D}"/>
+  <properties
+      key="ggm-target-guid"
+      value="{AA496B7B-913C-40fd-943E-52F1A6E89440}"/>
+  <properties
+      key="gemma-guid"
+      value="id-ef19b3b9-08ac-4c8c-b785-4571f6fa8ddf"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-7210a379-17ee-4143-a106-ecd9414b2a0d"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="Object ID"
+      value="e5c85127-4c9e-4b75-a5d0-d1d0a79f9a45"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7210a379-17ee-4143-a106-ecd9414b2a0d.xml#id-7210a379-17ee-4143-a106-ecd9414b2a0d"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-aa496b7b-913c-40fd-943e-52f1a6e89440.xml#id-aa496b7b-913c-40fd-943e-52f1a6e89440"/>
+</archimate:AssociationRelationship>

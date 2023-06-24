@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="besteding"
+    id="id-dd7ff2ed-f806-4692-9334-1b5561305b9c"
+    directed="true">
+  <properties
+      key="gemma-target-guid"
+      value="id-b9288d01-0b8f-4f8c-bae1-afd1b0ef6fdf"/>
+  <properties
+      key="ggm-source-guid"
+      value="{B64178F1-7D37-4a77-BEF7-97E8C9DDA4E8}"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-b64178f1-7d37-4a77-bef7-97e8c9dda4e8"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="ggm-target-guid"
+      value="{B9288D01-0B8F-4f8c-BAE1-AFD1B0EF6FDF}"/>
+  <properties
+      key="ggm-guid"
+      value="{DD7FF2ED-F806-4692-9334-1B5561305B9C}"/>
+  <properties
+      key="gemma-guid"
+      value="id-dd7ff2ed-f806-4692-9334-1b5561305b9c"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="90c685a4-9fb3-49eb-8704-48950a8755fe"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b64178f1-7d37-4a77-bef7-97e8c9dda4e8.xml#id-b64178f1-7d37-4a77-bef7-97e8c9dda4e8"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-b9288d01-0b8f-4f8c-bae1-afd1b0ef6fdf.xml#id-b9288d01-0b8f-4f8c-bae1-afd1b0ef6fdf"/>
+</archimate:AssociationRelationship>

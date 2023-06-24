@@ -1,0 +1,121 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Adresseerbare Objecten (GGM)"
+    id="id-e4c7eb23519b4ccc864f85d442c0933c">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e27f6fe28cc3460498ba229b2eb8e86e"
+      font="1|Lucida Grande|11.0|0|COCOA|1|"
+      textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d32c4ab4851a48b392b3bccb8f105331"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        source="id-e27f6fe28cc3460498ba229b2eb8e86e"
+        target="id-7939abe9735846c8a9574cbcef591240">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-41edae8aaf5246f39db81fd01892d438.xml#id-41edae8aaf5246f39db81fd01892d438"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b525cf3e57a447cc8231d7cf16abef37"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        source="id-e27f6fe28cc3460498ba229b2eb8e86e"
+        target="id-7d64e5251fad40e0bcad7b35a2c6d7af">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-65f6eddea95d472b90eedea5f0a3388f.xml#id-65f6eddea95d472b90eedea5f0a3388f"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-cf8bf72692ad4ff39c442215d808f3ae"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        source="id-e27f6fe28cc3460498ba229b2eb8e86e"
+        target="id-0bee36cf92e945b8a5b7c31458854f0e">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-cb79d7b4a2724f068bfa663e67dd67b8.xml#id-cb79d7b4a2724f068bfa663e67dd67b8"/>
+    </sourceConnections>
+    <bounds
+        x="24"
+        y="24"
+        width="493"
+        height="349"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-0bee36cf92e945b8a5b7c31458854f0e"
+        targetConnections="id-b341ecda99b64ebfb6a19bcb20ccb418 id-cf8bf72692ad4ff39c442215d808f3ae id-62b3998637454d91b57a53346a92f087"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        type="1">
+      <bounds
+          x="168"
+          y="48"
+          width="153"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-31a87864-6ce0-4e93-a493-ecd0fbdd4461.xml#id-31a87864-6ce0-4e93-a493-ecd0fbdd4461"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7d64e5251fad40e0bcad7b35a2c6d7af"
+        targetConnections="id-b525cf3e57a447cc8231d7cf16abef37"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        type="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-b341ecda99b64ebfb6a19bcb20ccb418"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          source="id-7d64e5251fad40e0bcad7b35a2c6d7af"
+          target="id-0bee36cf92e945b8a5b7c31458854f0e">
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_id-c8f5de1d77ea474daf84c2e8e077e0f8.xml#id-c8f5de1d77ea474daf84c2e8e077e0f8"/>
+      </sourceConnections>
+      <bounds
+          x="26"
+          y="213"
+          width="120"
+          height="91"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-7b33eb93-bad8-4b36-90a1-b3909415edc3.xml#id-7b33eb93-bad8-4b36-90a1-b3909415edc3"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7939abe9735846c8a9574cbcef591240"
+        targetConnections="id-d32c4ab4851a48b392b3bccb8f105331"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        type="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-62b3998637454d91b57a53346a92f087"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          source="id-7939abe9735846c8a9574cbcef591240"
+          target="id-0bee36cf92e945b8a5b7c31458854f0e">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-bde4a1e587de4b5d96682266933070c7.xml#id-bde4a1e587de4b5d96682266933070c7"/>
+      </sourceConnections>
+      <bounds
+          x="342"
+          y="222"
+          width="120"
+          height="91"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-ba35a5e2-5a1d-4328-91cd-d51694ed5fba.xml#id-ba35a5e2-5a1d-4328-91cd-d51694ed5fba"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-54beaacb41934f9f9b3c877512661687.xml#id-54beaacb41934f9f9b3c877512661687"/>
+  </children>
+  <properties
+      key="Viewtype"
+      value="BOM"/>
+  <properties
+      key="Object ID"
+      value="54b0184b-3751-4a5c-9cbb-776b4205c115"/>
+</archimate:ArchimateDiagramModel>

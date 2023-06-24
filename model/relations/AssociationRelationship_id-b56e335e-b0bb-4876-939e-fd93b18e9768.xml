@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="soort opleiding"
+    id="id-b56e335e-b0bb-4876-939e-fd93b18e9768"
+    directed="true">
+  <properties
+      key="ggm-source-guid"
+      value="{261363C5-1E00-4b6a-B570-2129DC044010}"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-e07d60de-cd26-4cef-a18b-6f72cc76c1b6"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-261363c5-1e00-4b6a-b570-2129dc044010"/>
+  <properties
+      key="ggm-guid"
+      value="{B56E335E-B0BB-4876-939E-FD93B18E9768}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="ggm-target-guid"
+      value="{E07D60DE-CD26-4cef-A18B-6F72CC76C1B6}"/>
+  <properties
+      key="gemma-guid"
+      value="id-b56e335e-b0bb-4876-939e-fd93b18e9768"/>
+  <properties
+      key="Object ID"
+      value="8b1f1e6c-c85d-413e-8c7c-f795f6a0f9ee"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-261363c5-1e00-4b6a-b570-2129dc044010.xml#id-261363c5-1e00-4b6a-b570-2129dc044010"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e07d60de-cd26-4cef-a18b-6f72cc76c1b6.xml#id-e07d60de-cd26-4cef-a18b-6f72cc76c1b6"/>
+</archimate:AssociationRelationship>
