@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="heeft financiele situatie"
+    id="id-f561ea37-67b5-48d6-89c7-793be8c31a4a"
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{F561EA37-67B5-48d6-89C7-793BE8C31A4A}"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-daf09055-a5a6-4ff4-a158-21b20567b296"/>
+  <properties
+      key="gemma-guid"
+      value="id-f561ea37-67b5-48d6-89c7-793be8c31a4a"/>
+  <properties
+      key="ggm-source-guid"
+      value="{DAF09055-A5A6-4ff4-A158-21B20567B296}"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="ggm-target-guid"
+      value="{5CC59215-5A63-4ef8-9D64-C4FAC0619121}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-5cc59215-5a63-4ef8-9d64-c4fac0619121"/>
+  <properties
+      key="Object ID"
+      value="9b1a0ccd-9559-4f10-a503-a9ee40166ae5"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-daf09055-a5a6-4ff4-a158-21b20567b296.xml#id-daf09055-a5a6-4ff4-a158-21b20567b296"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5cc59215-5a63-4ef8-9d64-c4fac0619121.xml#id-5cc59215-5a63-4ef8-9d64-c4fac0619121"/>
+</archimate:AssociationRelationship>

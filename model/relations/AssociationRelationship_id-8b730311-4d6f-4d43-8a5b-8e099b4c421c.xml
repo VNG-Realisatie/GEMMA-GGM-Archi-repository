@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="soort verzuim"
+    id="id-8b730311-4d6f-4d43-8a5b-8e099b4c421c"
+    directed="true">
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="ggm-target-guid"
+      value="{45900108-585D-45ec-A042-BF4928B7F6DC}"/>
+  <properties
+      key="ggm-guid"
+      value="{8B730311-4D6F-4d43-8A5B-8E099B4C421C}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="gemma-guid"
+      value="id-8b730311-4d6f-4d43-8a5b-8e099b4c421c"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-610b18e6-b675-4cc0-a883-bab9d384c668"/>
+  <properties
+      key="ggm-source-guid"
+      value="{610B18E6-B675-4cc0-A883-BAB9D384C668}"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-45900108-585d-45ec-a042-bf4928b7f6dc"/>
+  <properties
+      key="Object ID"
+      value="a530b273-8ff8-4a88-9c46-73d67a168886"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-610b18e6-b675-4cc0-a883-bab9d384c668.xml#id-610b18e6-b675-4cc0-a883-bab9d384c668"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-0060d931-6bba-480d-adca-0a74908c39a4.xml#id-0060d931-6bba-480d-adca-0a74908c39a4"/>
+</archimate:AssociationRelationship>

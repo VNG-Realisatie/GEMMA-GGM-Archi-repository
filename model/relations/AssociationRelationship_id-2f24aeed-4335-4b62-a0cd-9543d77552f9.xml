@@ -1,0 +1,44 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="verblijft in"
+    id="id-2f24aeed-4335-4b62-a0cd-9543d77552f9"
+    documentation="Het VERBLIJFSOBJECT behorende bij het woonadres van de persoon"
+    directed="true">
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-a33151ce-37b2-4026-b0af-b541687b5b7c"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-e5e010c2-c1f3-4986-aa9a-c71c19263606"/>
+  <properties
+      key="ggm-target-guid"
+      value="{A33151CE-37B2-4026-B0AF-B541687B5B7C}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="gemma-guid"
+      value="id-2f24aeed-4335-4b62-a0cd-9543d77552f9"/>
+  <properties
+      key="ggm-source-guid"
+      value="{E5E010C2-C1F3-4986-AA9A-C71C19263606}"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="ggm-guid"
+      value="{2F24AEED-4335-4b62-A0CD-9543D77552F9}"/>
+  <properties
+      key="Object ID"
+      value="e039b1f3-1ed7-4505-8746-1b048affaf80"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-e5e010c2-c1f3-4986-aa9a-c71c19263606.xml#id-e5e010c2-c1f3-4986-aa9a-c71c19263606"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-a33151ce-37b2-4026-b0af-b541687b5b7c.xml#id-a33151ce-37b2-4026-b0af-b541687b5b7c"/>
+</archimate:AssociationRelationship>

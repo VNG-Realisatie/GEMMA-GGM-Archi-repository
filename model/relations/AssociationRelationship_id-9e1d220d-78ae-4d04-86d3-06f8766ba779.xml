@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="valt binnen"
+    id="id-9e1d220d-78ae-4d04-86d3-06f8766ba779"
+    directed="true">
+  <properties
+      key="gemma-target-guid"
+      value="id-137decb4-f249-4039-b4f3-787852c4cb11"/>
+  <properties
+      key="gemma-guid"
+      value="id-9e1d220d-78ae-4d04-86d3-06f8766ba779"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-c95cf400-8487-4ff3-b475-ca1e01ebca78"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="ggm-target-guid"
+      value="{137DECB4-F249-4039-B4F3-787852C4CB11}"/>
+  <properties
+      key="ggm-guid"
+      value="{9E1D220D-78AE-4d04-86D3-06F8766BA779}"/>
+  <properties
+      key="ggm-source-guid"
+      value="{C95CF400-8487-4ff3-B475-CA1E01EBCA78}"/>
+  <properties
+      key="Object ID"
+      value="2ba03e07-c6d0-47f9-aed4-5077806bbabe"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c95cf400-8487-4ff3-b475-ca1e01ebca78.xml#id-c95cf400-8487-4ff3-b475-ca1e01ebca78"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-137decb4-f249-4039-b4f3-787852c4cb11.xml#id-137decb4-f249-4039-b4f3-787852c4cb11"/>
+</archimate:AssociationRelationship>

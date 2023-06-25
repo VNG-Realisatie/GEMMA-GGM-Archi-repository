@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="score bij leeggebied"
+    id="id-b620036d-4786-442c-b36c-82307bab6ee5"
+    directed="true">
+  <properties
+      key="ggm-source-guid"
+      value="{5A367DA9-DE05-4b3b-954D-24271FD4FB76}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="ggm-guid"
+      value="{B620036D-4786-442c-B36C-82307BAB6EE5}"/>
+  <properties
+      key="ggm-target-guid"
+      value="{C55180D9-A5C3-4859-BD88-7686F5384157}"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-5a367da9-de05-4b3b-954d-24271fd4fb76"/>
+  <properties
+      key="gemma-guid"
+      value="id-b620036d-4786-442c-b36c-82307bab6ee5"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-c55180d9-a5c3-4859-bd88-7686f5384157"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="af26c71d-51d9-442a-b2bf-9d3499daa485"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5a367da9-de05-4b3b-954d-24271fd4fb76.xml#id-5a367da9-de05-4b3b-954d-24271fd4fb76"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-c55180d9-a5c3-4859-bd88-7686f5384157.xml#id-c55180d9-a5c3-4859-bd88-7686f5384157"/>
+</archimate:AssociationRelationship>

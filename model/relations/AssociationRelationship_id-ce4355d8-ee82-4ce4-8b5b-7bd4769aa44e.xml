@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="mondt uit"
+    id="id-ce4355d8-ee82-4ce4-8b5b-7bd4769aa44e"
+    directed="true">
+  <properties
+      key="gemma-target-guid"
+      value="id-44ec6082-2682-43c7-a52e-0ad05b06a046"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-7694a657-22d8-4b00-aae2-a78ef014b43a"/>
+  <properties
+      key="ggm-target-guid"
+      value="{44EC6082-2682-43c7-A52E-0AD05B06A046}"/>
+  <properties
+      key="ggm-guid"
+      value="{CE4355D8-EE82-4ce4-8B5B-7BD4769AA44E}"/>
+  <properties
+      key="ggm-source-guid"
+      value="{7694A657-22D8-4b00-AAE2-A78EF014B43A}"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="gemma-guid"
+      value="id-ce4355d8-ee82-4ce4-8b5b-7bd4769aa44e"/>
+  <properties
+      key="Object ID"
+      value="9712f020-27ea-40bf-83e2-676d6a213341"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-7694a657-22d8-4b00-aae2-a78ef014b43a.xml#id-7694a657-22d8-4b00-aae2-a78ef014b43a"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-44ec6082-2682-43c7-a52e-0ad05b06a046.xml#id-44ec6082-2682-43c7-a52e-0ad05b06a046"/>
+</archimate:AssociationRelationship>

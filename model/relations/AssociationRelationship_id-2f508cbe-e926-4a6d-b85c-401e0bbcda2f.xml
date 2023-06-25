@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="aantal volgens dienstverband"
+    id="id-2f508cbe-e926-4a6d-b85c-401e0bbcda2f"
+    directed="true">
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="gemma-guid"
+      value="id-2f508cbe-e926-4a6d-b85c-401e0bbcda2f"/>
+  <properties
+      key="ggm-target-guid"
+      value="{63FF86E2-1BB0-48f6-8D95-3D82E8D2FA06}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-93165dec-ecb7-4225-9484-e1727524a1b5"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-63ff86e2-1bb0-48f6-8d95-3d82e8d2fa06"/>
+  <properties
+      key="ggm-guid"
+      value="{2F508CBE-E926-4a6d-B85C-401E0BBCDA2F}"/>
+  <properties
+      key="ggm-source-guid"
+      value="{93165DEC-ECB7-4225-9484-E1727524A1B5}"/>
+  <properties
+      key="Object ID"
+      value="0dc9c8fd-552f-48b0-9fa0-f1558ac61f8b"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-93165dec-ecb7-4225-9484-e1727524a1b5.xml#id-93165dec-ecb7-4225-9484-e1727524a1b5"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-63ff86e2-1bb0-48f6-8d95-3d82e8d2fa06.xml#id-63ff86e2-1bb0-48f6-8d95-3d82e8d2fa06"/>
+</archimate:AssociationRelationship>

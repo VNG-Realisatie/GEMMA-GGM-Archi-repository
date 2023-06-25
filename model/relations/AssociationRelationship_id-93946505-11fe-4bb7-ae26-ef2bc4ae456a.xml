@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="bestaat uit"
+    id="id-93946505-11fe-4bb7-ae26-ef2bc4ae456a"
+    directed="true">
+  <properties
+      key="gemma-target-guid"
+      value="id-9a739672-6084-4c05-a13e-59db13551e58"/>
+  <properties
+      key="gemma-guid"
+      value="id-93946505-11fe-4bb7-ae26-ef2bc4ae456a"/>
+  <properties
+      key="ggm-source-guid"
+      value="{28A6F2AC-5AB1-4f25-8876-931152CA28E0}"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-28a6f2ac-5ab1-4f25-8876-931152ca28e0"/>
+  <properties
+      key="ggm-guid"
+      value="{93946505-11FE-4bb7-AE26-EF2BC4AE456A}"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="ggm-target-guid"
+      value="{9A739672-6084-4c05-A13E-59DB13551E58}"/>
+  <properties
+      key="Object ID"
+      value="63b93425-ccaf-4631-b30e-dcf4abde3076"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-28a6f2ac-5ab1-4f25-8876-931152ca28e0.xml#id-28a6f2ac-5ab1-4f25-8876-931152ca28e0"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-9a739672-6084-4c05-a13e-59db13551e58.xml#id-9a739672-6084-4c05-a13e-59db13551e58"/>
+</archimate:AssociationRelationship>

@@ -1,0 +1,40 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="monument bouwtype"
+    id="id-d9634ead-2869-40a1-b243-805897e4b1b3"
+    directed="true">
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="ggm-target-guid"
+      value="{5E9DAFBB-C9B5-4706-A43D-07AD4979DED4}"/>
+  <properties
+      key="gemma-source-guid"
+      value="id-32c02923-ee3a-4553-b94b-31e0c273a829"/>
+  <properties
+      key="ggm-guid"
+      value="{D9634EAD-2869-40a1-B243-805897E4B1B3}"/>
+  <properties
+      key="gemma-target-guid"
+      value="id-5e9dafbb-c9b5-4706-a43d-07ad4979ded4"/>
+  <properties
+      key="gemma-guid"
+      value="id-d9634ead-2869-40a1-b243-805897e4b1b3"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="ggm-source-guid"
+      value="{32C02923-EE3A-4553-B94B-31E0C273A829}"/>
+  <properties
+      key="Object ID"
+      value="a30e13e5-3571-4c72-9d1e-614f4edb310b"/>
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-32c02923-ee3a-4553-b94b-31e0c273a829.xml#id-32c02923-ee3a-4553-b94b-31e0c273a829"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5e9dafbb-c9b5-4706-a43d-07ad4979ded4.xml#id-5e9dafbb-c9b5-4706-a43d-07ad4979ded4"/>
+</archimate:AssociationRelationship>
