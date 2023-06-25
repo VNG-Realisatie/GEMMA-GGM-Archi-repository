@@ -1,0 +1,30 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Telefoonstatus"
+    id="id-d8a82a45-03c3-44d5-af32-3138a55b2e75"
+    documentation="&lt;ul>&#xD;&#xA; &lt;li>ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”&lt;/li>&#xD;&#xA; &lt;li>DROPPEDCANCELED: “Opgehangen door systeem”&lt;/li>&#xD;&#xA; &lt;li>ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”&lt;/li>&#xD;&#xA; &lt;li>CONNECTEDDIRECT: “Direct verbonden”&lt;/li>&#xD;&#xA; &lt;li>CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”&lt;/li>&#xD;&#xA; &lt;li>AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”&lt;/li>&#xD;&#xA; &lt;li>DroppedBusy: “Opgehangen door systeem, te druk”&lt;/li>&#xD;&#xA; &lt;li>REJECTED: “Geweigerd door systeem”&lt;/li>&#xD;&#xA; &lt;li>Droppedoverload: “Opgehangen door systeem vanwege overbelasting”&lt;/li>&#xD;&#xA;&lt;/ul>">
+  <properties
+      key="uml-type"
+      value="Class"/>
+  <properties
+      key="ggm-guid"
+      value="{D8A82A45-03C3-44d5-AF32-3138A55B2E75}"/>
+  <properties
+      key="domein-iv3"
+      value="Dienstverlening"/>
+  <properties
+      key="gemma-guid"
+      value="id-d8a82a45-03c3-44d5-af32-3138a55b2e75"/>
+  <properties
+      key="datum-tijd-export"
+      value="07062023-16:03:12"/>
+  <properties
+      key="Object ID"
+      value="cdf2d7d8-2b24-4013-8c84-da90240bfb88"/>
+  <properties
+      key="Business Object"
+      value="Nee"/>
+  <properties
+      key="ggm-naam"
+      value="Telefoonstatus"/>
+</archimate:BusinessObject>

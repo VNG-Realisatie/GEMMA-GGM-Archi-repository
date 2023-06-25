@@ -1,0 +1,73 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Model Relatieklassen (weg?) (GGM)"
+    id="id-2c55bb5aaf0d499997d25d19c6ce2eb0">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-661a320f4b884ad289747d0c2eccd6bc"
+      textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3132c9db276247abbc1f5cdc7a6b8173"
+        source="id-661a320f4b884ad289747d0c2eccd6bc"
+        target="id-7e0aa7ebf0384665849b8d63a3fcb91c">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-28435ed3b3604fe7b303db80b09a76a8.xml#id-28435ed3b3604fe7b303db80b09a76a8"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4ece860d21c04ea9b4b0da7626b96bb1"
+        source="id-661a320f4b884ad289747d0c2eccd6bc"
+        target="id-aecedf4ea0d14ba2b742d1514f71037b">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-03ce7fe8d02d4bc6943be914ec01f51c.xml#id-03ce7fe8d02d4bc6943be914ec01f51c"/>
+    </sourceConnections>
+    <bounds
+        x="24"
+        y="12"
+        width="233"
+        height="221"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-aecedf4ea0d14ba2b742d1514f71037b"
+        targetConnections="id-4ece860d21c04ea9b4b0da7626b96bb1"
+        font="1|Lucida Grande|10.0|0|COCOA|1|"
+        type="1">
+      <bounds
+          x="48"
+          y="132"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-df81069d-cbe4-433e-ab7c-cb06170275c9.xml#id-df81069d-cbe4-433e-ab7c-cb06170275c9"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7e0aa7ebf0384665849b8d63a3fcb91c"
+        targetConnections="id-3132c9db276247abbc1f5cdc7a6b8173"
+        font="1|Lucida Grande|10.0|0|COCOA|1|"
+        type="1">
+      <bounds
+          x="48"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-703f7bb2-6d05-6f98-18d3-0d182c4993c0.xml#id-703f7bb2-6d05-6f98-18d3-0d182c4993c0"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-f7ea1a60f5f44bb8aa50bb232cab0496.xml#id-f7ea1a60f5f44bb8aa50bb232cab0496"/>
+  </children>
+  <properties
+      key="Viewtype"
+      value="Overview"/>
+  <properties
+      key="Object ID"
+      value="0721320b-6c39-4d77-bd8d-fcf33273f789"/>
+</archimate:ArchimateDiagramModel>
