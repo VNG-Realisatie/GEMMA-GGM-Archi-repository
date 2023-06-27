@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GGM CSV formats</title>
+</head>
+<body>
+<h2>Toelichting</h2>
+Om GGM (UML) in GEMMA (ArchiMate) weer te geven, is besloten om alleen de UML-objecttypen en -relaties in de GEMMA op te nemen. De metadata worden wel meegenomen om uitwisseling van gegevens mogelijk te maken.
+<h2>Objecten</h2>
+<ol>
+    <li>nr (technisch nummer, nodig voor de uitwisseling, wordt niet opgenomen in de modellen)</li>
+    <li>naam (label)</li>
+    <li>definitie</li>
+    <li>uml-type</li>
+    <li>ggm-guid</li>
+    <li>bron</li>
+    <li>domein-iv3 (Indeling GGM)</li>
+    <li>archimate-type (business-object/data-object)</li>
+    <li>toelichting</li>
+    <li>gemma-guid</li>
+    <li>synoniemen (comma seperated)</li>
+    <li>domein-dcat</li>
+    <li>domein-gemma</li>
+    <li>datum-tijd-export (ddmmyyyy-hh:mm:ss)</li>
+</ol>
+
+<!-- Eigenschappen zijn een niveau te diep om in ArchiMate te modelleren, Dus daarom alleen Objecttypen en Relaties -->
+<!--<h2>Eigenschappen</h2>-->
+<!--<ol>-->
+<!--    <li>nr (technisch nummer, nodig voor de uitwisseling, wordt niet opgenomen in de modellen)</li>-->
+<!--    <li>naam (label)</li>-->
+<!--    <li>definitie</li>-->
+<!--    <li>uml-datatype</li>-->
+<!--    <li>archimate-datatype</li>-->
+<!--    <li>gemma-guid</li>-->
+<!--    <li>ggm-guid</li>-->
+<!--    <li>gemma-object-guid</li>-->
+<!--    <li>ggm-object-guid</li>-->
+<!--    <li>bron</li>-->
+<!--    <li>toelichting</li>-->
+<!--    <li>synoniemen (comma seperated)</li>-->
+<!--    <li>datum-tijd-export (ddmmyyyy-hh:mm:ss)</li>-->
+<!--</ol>-->
+<h2>Relaties</h2>
+<ol>
+    <li>nr (technisch nummer, odig voor de uitwisseling, wordt niet opgenomen in de modellen)</li>
+    <li>naam (label) </li>
+    <li>definitie</li>
+    <li>uml-type ( Associatie, Generalisatie, Aggregatie)</li>
+    <li>ggm-guid</li>
+    <li>ggm-source-guid</li>
+    <li>ggm-target-guid</li>
+    <li>toelichting</li>
+    <li>archimate-type (Association, Specialisatie, Aggregation)</li>
+    <li>gemma-guid</li>
+    <li>gemma-source-guid</li>
+    <li>gemma-target-guid</li>
+    <li>datum-tijd-export (ddmmyyyy-hh:mm:ss)</li>
+</ol>
+</body>
+</html>
