@@ -1,0 +1,52 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Vergunningen KCC (GGM)"
+    id="id-1a60576539b14bdab66edc4036196976">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b3a49d798152494d94037544b9e7d4de"
+      font="1|Lucida Grande|11.0|0|COCOA|1|"
+      fontColor="#000000"
+      lineColor="#4f4f4f"
+      textAlignment="1"
+      fillColor="#fffffe">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0b5800a958714ecf8703a6f81e3ed089"
+        source="id-b3a49d798152494d94037544b9e7d4de"
+        target="id-a86b50fa85f443b2891682e16d7c012f">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-f3213ef9206f471881de0e2d16ee19a0.xml#id-f3213ef9206f471881de0e2d16ee19a0"/>
+    </sourceConnections>
+    <bounds
+        x="12"
+        y="12"
+        width="745"
+        height="277"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-a86b50fa85f443b2891682e16d7c012f"
+        targetConnections="id-0b5800a958714ecf8703a6f81e3ed089"
+        font="1|Lucida Grande|11.0|0|COCOA|1|"
+        fontColor="#000000"
+        lineColor="#4f4f4f"
+        fillColor="#fefeb4">
+      <bounds
+          x="242"
+          y="81"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-b2b423c3-b9c9-4b4f-a47d-85d29417b9b4.xml#id-b2b423c3-b9c9-4b4f-a47d-85d29417b9b4"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-e1fb2fbce8b04913815651dcbde18431.xml#id-e1fb2fbce8b04913815651dcbde18431"/>
+  </children>
+  <properties
+      key="Viewtype"
+      value="BOM"/>
+</archimate:ArchimateDiagramModel>
