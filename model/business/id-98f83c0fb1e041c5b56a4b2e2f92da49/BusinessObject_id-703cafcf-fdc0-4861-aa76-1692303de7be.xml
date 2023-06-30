@@ -1,7 +1,8 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Doos"
-    id="id-703cafcf-fdc0-4861-aa76-1692303de7be">
+    id="id-703cafcf-fdc0-4861-aa76-1692303de7be"
+    documentation="Een afsluitbaar object waar iets in wordt opgeborgen of verpakt.">
   <properties
       key="domein-iv3"
       value="Erfgoed: Archeologie"/>
@@ -10,7 +11,7 @@
       value="{703CAFCF-FDC0-4861-AA76-1692303DE7BE}"/>
   <properties
       key="datum-tijd-export"
-      value="07062023-16:03:12"/>
+      value="28062023-09:16:21"/>
   <properties
       key="uml-type"
       value="Class"/>
@@ -29,4 +30,10 @@
   <properties
       key="ggm-naam"
       value="Doos"/>
+  <properties
+      key="toelichting"
+      value="Een doos bestaat meestal uit gevouwen karton, eventueel met lijm of plakband dichtgezet. In deze vorm heeft het vaak de vorm van een balk. Met een doos wordt meestal een grote kartonnen doos bedoeld, met geen andere functie dan verpakking of opslag. Voorbeelden zijn een verhuisdoos en een schoenendoos. Een ander soort doos is een tekendoos en is meestal van hout."/>
+  <properties
+      key="domein-gemma"
+      value="nan"/>
 </archimate:BusinessObject>

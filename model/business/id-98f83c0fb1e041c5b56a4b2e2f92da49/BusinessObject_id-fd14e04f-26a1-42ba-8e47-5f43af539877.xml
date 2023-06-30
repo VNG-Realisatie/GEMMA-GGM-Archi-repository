@@ -1,7 +1,8 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Beschikkingsoort"
-    id="id-fd14e04f-26a1-42ba-8e47-5f43af539877">
+    id="id-fd14e04f-26a1-42ba-8e47-5f43af539877"
+    documentation="Typering van een beschikking">
   <properties
       key="domein-iv3"
       value="Generiek Jeugd en Wmo"/>
@@ -16,7 +17,7 @@
       value="{FD14E04F-26A1-42ba-8E47-5F43AF539877}"/>
   <properties
       key="datum-tijd-export"
-      value="07062023-16:03:12"/>
+      value="28062023-09:16:21"/>
   <properties
       key="Hulpobject"
       value="Ja"/>
@@ -26,4 +27,7 @@
   <properties
       key="ggm-naam"
       value="Beschikkingsoort"/>
+  <properties
+      key="domein-gemma"
+      value="nan"/>
 </archimate:BusinessObject>

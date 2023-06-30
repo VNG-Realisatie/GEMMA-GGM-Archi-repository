@@ -1,7 +1,8 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Declaratiesoort"
-    id="id-9d4fb9df-d68a-4503-96c0-272b6777a4fc">
+    id="id-9d4fb9df-d68a-4503-96c0-272b6777a4fc"
+    documentation="Typering van een declaratie">
   <properties
       key="ggm-guid"
       value="{9D4FB9DF-D68A-4503-96C0-272B6777A4FC}"/>
@@ -10,7 +11,7 @@
       value="HR"/>
   <properties
       key="datum-tijd-export"
-      value="07062023-16:03:12"/>
+      value="28062023-09:16:21"/>
   <properties
       key="uml-type"
       value="Class"/>
@@ -23,4 +24,7 @@
   <properties
       key="ggm-naam"
       value="Declaratiesoort"/>
+  <properties
+      key="domein-gemma"
+      value="nan"/>
 </archimate:BusinessObject>

@@ -1,10 +1,11 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Omzetgroep"
-    id="id-2a7d73d7-87ea-4b61-88bb-f061ddbf52d9">
+    id="id-2a7d73d7-87ea-4b61-88bb-f061ddbf52d9"
+    documentation="Artikelen worden gebruikt om omzet te registreren in de shop, de horeca of elders. De omzet wordt vervolgens getotaliseerd op rapportages. Om de artikelen te groeperen moet ieder artikel tot een omzetgroep behoren.">
   <properties
       key="datum-tijd-export"
-      value="07062023-16:03:12"/>
+      value="28062023-09:16:21"/>
   <properties
       key="uml-type"
       value="Class"/>
@@ -23,4 +24,7 @@
   <properties
       key="ggm-naam"
       value="Omzetgroep"/>
+  <properties
+      key="domein-gemma"
+      value="nan"/>
 </archimate:BusinessObject>

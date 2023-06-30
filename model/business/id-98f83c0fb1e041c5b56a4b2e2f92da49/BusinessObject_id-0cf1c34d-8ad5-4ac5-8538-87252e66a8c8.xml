@@ -11,7 +11,7 @@
       value="id-0cf1c34d-8ad5-4ac5-8538-87252e66a8c8"/>
   <properties
       key="datum-tijd-export"
-      value="07062023-16:03:12"/>
+      value="28062023-09:16:21"/>
   <properties
       key="ggm-guid"
       value="{0CF1C34D-8AD5-4ac5-8538-87252E66A8C8}"/>
@@ -30,4 +30,10 @@
   <properties
       key="ggm-naam"
       value="Generalisatie"/>
+  <properties
+      key="domein-gemma"
+      value="nan"/>
+  <properties
+      key="toelichting"
+      value="Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype."/>
 </archimate:BusinessObject>

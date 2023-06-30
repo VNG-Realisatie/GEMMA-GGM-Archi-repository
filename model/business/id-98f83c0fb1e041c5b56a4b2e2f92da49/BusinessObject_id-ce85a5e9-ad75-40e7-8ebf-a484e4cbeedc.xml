@@ -1,7 +1,8 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Incident"
-    id="id-ce85a5e9-ad75-40e7-8ebf-a484e4cbeedc">
+    id="id-ce85a5e9-ad75-40e7-8ebf-a484e4cbeedc"
+    documentation="Niet-gepland(e) gebeurtenis die of voorval dat tot schade of verlies leidt">
   <properties
       key="uml-type"
       value="Class"/>
@@ -10,7 +11,7 @@
       value="Museum Prinsenhof"/>
   <properties
       key="datum-tijd-export"
-      value="07062023-16:03:12"/>
+      value="28062023-09:16:21"/>
   <properties
       key="ggm-guid"
       value="{CE85A5E9-AD75-40e7-8EBF-A484E4CBEEDC}"/>
@@ -23,4 +24,7 @@
   <properties
       key="ggm-naam"
       value="Incident"/>
+  <properties
+      key="domein-gemma"
+      value="nan"/>
 </archimate:BusinessObject>
