@@ -1,8 +1,7 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="PGB-Toekenning"
-    id="id-84fe9b56-158d-4b65-bcc1-5fe29d071fcc"
-    documentation="Betreft alleen toegekende voorzieningen met als leveringsvorm PGB&#xD;&#xA;Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb &#xD;&#xA;&#xD;&#xA; ">
+    id="id-84fe9b56-158d-4b65-bcc1-5fe29d071fcc">
   <properties
       key="domein-iv3"
       value="Generiek Jeugd en Wmo"/>
@@ -27,4 +26,10 @@
   <properties
       key="domein-gemma"
       value="nan"/>
+  <properties
+      key="ggm-definition"
+      value="Betreft alleen toegekende voorzieningen met als leveringsvorm PGB Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb    "/>
+  <properties
+      key="Object ID"
+      value="id-84fe9b56-158d-4b65-bcc1-5fe29d071fcc"/>
 </archimate:BusinessObject>

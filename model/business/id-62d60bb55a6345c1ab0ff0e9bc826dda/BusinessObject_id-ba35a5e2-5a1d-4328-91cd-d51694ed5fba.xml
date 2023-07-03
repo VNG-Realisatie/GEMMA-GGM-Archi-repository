@@ -1,8 +1,7 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ADRESSEERBAAR OBJECT AANDUIDING"
-    id="id-ba35a5e2-5a1d-4328-91cd-d51694ed5fba"
-    documentation="Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een VERBLIJFSOBJECT, een STANDPLAATS of een LIGPLAATS.">
+    id="id-ba35a5e2-5a1d-4328-91cd-d51694ed5fba">
   <properties
       key="Bron"
       value="https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)"/>
@@ -33,4 +32,10 @@
   <properties
       key="domein-gemma"
       value="nan"/>
+  <properties
+      key="ggm-definition"
+      value="Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een VERBLIJFSOBJECT, een STANDPLAATS of een LIGPLAATS."/>
+  <properties
+      key="Object ID"
+      value="id-ba35a5e2-5a1d-4328-91cd-d51694ed5fba"/>
 </archimate:BusinessObject>

@@ -1,8 +1,7 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="GEMEENTE"
-    id="id-b0d9792b-46e7-4b88-b267-c72691616733"
-    documentation="Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet.">
+    id="id-b0d9792b-46e7-4b88-b267-c72691616733">
   <properties
       key="Bron"
       value="https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)"/>
@@ -36,4 +35,10 @@
   <properties
       key="domein-gemma"
       value="nan"/>
+  <properties
+      key="ggm-definition"
+      value="Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."/>
+  <properties
+      key="Object ID"
+      value="id-b0d9792b-46e7-4b88-b267-c72691616733"/>
 </archimate:BusinessObject>

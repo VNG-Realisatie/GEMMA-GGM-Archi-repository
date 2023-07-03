@@ -1,8 +1,7 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Verzuimmelding"
-    id="id-252c70b1-4e02-4033-b2b5-86f65496d7ab"
-    documentation="Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente. ">
+    id="id-252c70b1-4e02-4033-b2b5-86f65496d7ab">
   <properties
       key="gemma-guid"
       value="id-252c70b1-4e02-4033-b2b5-86f65496d7ab"/>
@@ -27,4 +26,10 @@
   <properties
       key="domein-gemma"
       value="nan"/>
+  <properties
+      key="ggm-definition"
+      value="Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente. "/>
+  <properties
+      key="Object ID"
+      value="id-252c70b1-4e02-4033-b2b5-86f65496d7ab"/>
 </archimate:BusinessObject>
