@@ -1,8 +1,7 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="BAGObjectnummering"
-    id="id-ab8b30d0-fd1f-4c44-9396-bb05389ea20b"
-    documentation="Unieke objectaanduiding van een object uit de BAG binnen een gemeente.">
+    id="id-ab8b30d0-fd1f-4c44-9396-bb05389ea20b">
   <properties
       key="bron"
       value="BAG"/>
@@ -27,4 +26,10 @@
   <properties
       key="domein-gemma"
       value="nan"/>
+  <properties
+      key="Object ID"
+      value="id-ab8b30d0-fd1f-4c44-9396-bb05389ea20b"/>
+  <properties
+      key="ggm-definition"
+      value="Unieke objectaanduiding van een object uit de BAG binnen een gemeente."/>
 </archimate:BusinessObject>

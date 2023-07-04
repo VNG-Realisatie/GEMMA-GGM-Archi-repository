@@ -1,8 +1,7 @@
 <archimate:BusinessObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="WOZ-OBJECT"
-    id="id-cb7ba76d-0793-4d5a-9596-533c5bc56bbf"
-    documentation="De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld.">
+    id="id-cb7ba76d-0793-4d5a-9596-533c5bc56bbf">
   <properties
       key="Bron"
       value="https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)"/>
@@ -33,4 +32,10 @@
   <properties
       key="domein-gemma"
       value="nan"/>
+  <properties
+      key="ggm-definition"
+      value="De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."/>
+  <properties
+      key="Object ID"
+      value="id-cb7ba76d-0793-4d5a-9596-533c5bc56bbf"/>
 </archimate:BusinessObject>
