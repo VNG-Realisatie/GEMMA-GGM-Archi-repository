@@ -1,0 +1,48 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Generalisatie"
+    id="id-7a52e4dc6bf14b64ada45e4cc96e748b"
+    documentation="De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.&#xD;&#xA;&lt;i>Toelichting&lt;/i>&#xD;&#xA;Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype.&#xD;&#xA;&lt;i>Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’.&lt;/i>&#xD;&#xA;">
+  <properties
+      key="domein-iv3"
+      value="ICT"/>
+  <properties
+      key="gemma-guid"
+      value="id-7a52e4dc6bf14b64ada45e4cc96e748b"/>
+  <properties
+      key="datum-tijd-export"
+      value="28062023-09:16:21"/>
+  <properties
+      key="ggm-guid"
+      value="{0CF1C34D-8AD5-4ac5-8538-87252E66A8C8}"/>
+  <properties
+      key="uml-type"
+      value="Class"/>
+  <properties
+      key="Toelichting"
+      value="Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype."/>
+  <properties
+      key="Bron"
+      value="https://docs.geostandaarden.nl/mim/mim/#generalisatie"/>
+  <properties
+      key="Business Object"
+      value="Nee"/>
+  <properties
+      key="ggm-naam"
+      value="Generalisatie"/>
+  <properties
+      key="domein-gemma"
+      value="nan"/>
+  <properties
+      key="toelichting"
+      value="Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype."/>
+  <properties
+      key="Object ID"
+      value="id-7a52e4dc6bf14b64ada45e4cc96e748b"/>
+  <properties
+      key="ggm-definition"
+      value="De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft. &lt;i>Toelichting&lt;/i> Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype. &lt;i>Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’.&lt;/i> "/>
+  <properties
+      key="lc_name"
+      value="generalisatie"/>
+</archimate:DataObject>

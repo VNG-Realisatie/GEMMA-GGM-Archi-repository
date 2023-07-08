@@ -884,8 +884,8 @@
           source="id-a606b694fdc847c2b7e4da1215c26374"
           target="id-0c77048630e549a5a517d6b954934619">
         <archimateRelationship
-            xsi:type="archimate:SpecializationRelationship"
-            href="SpecializationRelationship_id-3436f2009a184febbeeb360633ffbe77.xml#id-3436f2009a184febbeeb360633ffbe77"/>
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-36005e449f884414bc67d8f92e5e2e6d.xml#id-36005e449f884414bc67d8f92e5e2e6d"/>
       </sourceConnections>
       <bounds
           x="288"
@@ -893,13 +893,13 @@
           width="120"
           height="55"/>
       <archimateElement
-          xsi:type="archimate:BusinessObject"
-          href="BusinessObject_id-43dd67fd-75f0-4fe0-90f0-db49048f14c.xml#id-43dd67fd-75f0-4fe0-90f0-db49048f14c"/>
+          xsi:type="archimate:DataObject"
+          href="DataObject_id-fbda47871f8e4f7dbc089e8258c40a56.xml#id-fbda47871f8e4f7dbc089e8258c40a56"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0c77048630e549a5a517d6b954934619"
-        targetConnections="id-c13dfa26d2724f81a18fe7018b342169 id-364ad22004db4f548f3ca9fde1007d16 id-1a5eb1ca141f47f9882abc77c3bcda94 id-3fc3c890a5ca44b0ad14f3e8cec2530a id-49c8bc82a33a4b518b2cce13d8fdd51a id-bd80a5c1046a4f07ad99ee6295e6f1a5 id-9454e8c4ddf649448506f5612cea5671 id-7cf3d9432ec84e599f36c2eeb27306ee id-3b23f5191308493e8bf327d223333536 id-46f415b243024fd4bbbe5d7eacf88e0d id-a4b0fcf6156e4f91bb4fe13ac738ccef id-92da86a1ba68430283a1bd23cff825b8 id-ac5eb4b581104799bd6253ff65ec069d id-0a90538e2be34159a4a6ef68927311c6 id-ea2703b6733a430d9e6b5e17f539a52a id-cfeb28bb367f4ab6ab9c4f1ea17c9c05 id-ea7b798d724648a3b0ff642ae688c599 id-9aaa7b298a3f4db78471201bed294f7a id-4eeb7c3fadf74e6998158a2cfbc2cfbd id-b45aead197964aa9950fc84600d71774 id-d78772e035344a2d80bd0be862479d44 id-9ba1cb947fe9473c96066529be342c9f id-a3c24968842844c3b1f77365430f2a39 id-725beee2c7d6465983154fbe3be231fc"
+        targetConnections="id-c13dfa26d2724f81a18fe7018b342169 id-364ad22004db4f548f3ca9fde1007d16 id-1a5eb1ca141f47f9882abc77c3bcda94 id-3fc3c890a5ca44b0ad14f3e8cec2530a id-49c8bc82a33a4b518b2cce13d8fdd51a id-bd80a5c1046a4f07ad99ee6295e6f1a5 id-9454e8c4ddf649448506f5612cea5671 id-7cf3d9432ec84e599f36c2eeb27306ee id-3b23f5191308493e8bf327d223333536 id-46f415b243024fd4bbbe5d7eacf88e0d id-a4b0fcf6156e4f91bb4fe13ac738ccef id-92da86a1ba68430283a1bd23cff825b8 id-ac5eb4b581104799bd6253ff65ec069d id-ea2703b6733a430d9e6b5e17f539a52a id-cfeb28bb367f4ab6ab9c4f1ea17c9c05 id-ea7b798d724648a3b0ff642ae688c599 id-9aaa7b298a3f4db78471201bed294f7a id-4eeb7c3fadf74e6998158a2cfbc2cfbd id-b45aead197964aa9950fc84600d71774 id-d78772e035344a2d80bd0be862479d44 id-9ba1cb947fe9473c96066529be342c9f id-a3c24968842844c3b1f77365430f2a39 id-725beee2c7d6465983154fbe3be231fc id-0a90538e2be34159a4a6ef68927311c6"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
