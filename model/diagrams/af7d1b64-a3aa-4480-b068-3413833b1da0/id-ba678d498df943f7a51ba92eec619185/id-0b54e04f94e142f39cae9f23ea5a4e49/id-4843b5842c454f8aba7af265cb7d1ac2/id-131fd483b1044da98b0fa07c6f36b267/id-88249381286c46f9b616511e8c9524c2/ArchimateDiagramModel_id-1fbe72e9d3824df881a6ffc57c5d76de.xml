@@ -645,8 +645,8 @@
           source="id-0ede2f7bec004568a7e94a8d5b451281"
           target="id-210c777ed8f94536b1a3203272038817">
         <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-c23d750b67a54b7987f49460b02bf0ee.xml#id-c23d750b67a54b7987f49460b02bf0ee"/>
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_id-72e5936567cc46fc89b852b77c0228ac.xml#id-72e5936567cc46fc89b852b77c0228ac"/>
       </sourceConnections>
       <bounds
           x="24"
@@ -654,8 +654,8 @@
           width="120"
           height="55"/>
       <archimateElement
-          xsi:type="archimate:DataObject"
-          href="DataObject_id-d2245e880ab74683b8e9694d278bff92.xml#id-d2245e880ab74683b8e9694d278bff92"/>
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-53c1e63a45b74c958c61875a65299cd8.xml#id-53c1e63a45b74c958c61875a65299cd8"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
