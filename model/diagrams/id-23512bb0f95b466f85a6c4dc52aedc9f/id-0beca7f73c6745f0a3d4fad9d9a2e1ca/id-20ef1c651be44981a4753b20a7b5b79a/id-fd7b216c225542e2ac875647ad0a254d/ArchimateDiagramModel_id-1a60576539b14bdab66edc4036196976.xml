@@ -5,32 +5,30 @@
     id="id-1a60576539b14bdab66edc4036196976">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-b3a49d798152494d94037544b9e7d4de"
-      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      id="id-dcbf907ff1894141bdabc5cafcd798fb"
       textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0b5800a958714ecf8703a6f81e3ed089"
-        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
-        source="id-b3a49d798152494d94037544b9e7d4de"
+        id="id-748338468b124c259a2c6487d41cc244"
+        source="id-dcbf907ff1894141bdabc5cafcd798fb"
         target="id-a86b50fa85f443b2891682e16d7c012f">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-f3213ef9206f471881de0e2d16ee19a0.xml#id-f3213ef9206f471881de0e2d16ee19a0"/>
+          href="AggregationRelationship_id-c69f80c97aa446cd970238078f5157ee.xml#id-c69f80c97aa446cd970238078f5157ee"/>
     </sourceConnections>
     <bounds
-        x="12"
-        y="12"
-        width="745"
-        height="277"/>
+        x="10"
+        y="10"
+        width="400"
+        height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a86b50fa85f443b2891682e16d7c012f"
-        targetConnections="id-0b5800a958714ecf8703a6f81e3ed089"
+        targetConnections="id-748338468b124c259a2c6487d41cc244"
         font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
       <bounds
-          x="242"
-          y="81"
+          x="120"
+          y="40"
           width="120"
           height="55"/>
       <archimateElement
@@ -39,7 +37,7 @@
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
-        href="Grouping_id-e1fb2fbce8b04913815651dcbde18431.xml#id-e1fb2fbce8b04913815651dcbde18431"/>
+        href="Grouping_id-94d2cd86e90f4fdabec161f2e49075f9.xml#id-94d2cd86e90f4fdabec161f2e49075f9"/>
   </children>
   <properties
       key="Viewtype"
