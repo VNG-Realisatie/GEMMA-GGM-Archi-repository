@@ -146,7 +146,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-48321b63332f4d56a79f021d10c8974c"
-        targetConnections="id-614e0a07face4f79a538a0d2a68e4eba id-78874124dafb4c7a9c8d54d292cb04b6"
+        targetConnections="id-78874124dafb4c7a9c8d54d292cb04b6 id-614e0a07face4f79a538a0d2a68e4eba"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -163,7 +163,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-89fb12dec4504b1c94db6d38b8b40b17"
-        targetConnections="id-8d6417bcb4b54082bd7db1a5be5cda97 id-30690baff0154b24aadcd8cd9bb1b4d9"
+        targetConnections="id-30690baff0154b24aadcd8cd9bb1b4d9 id-8d6417bcb4b54082bd7db1a5be5cda97"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -204,18 +204,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-8d6417bcb4b54082bd7db1a5be5cda97"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
-          source="id-d55423f9aa9d42adb8351478b61e55ff"
-          target="id-89fb12dec4504b1c94db6d38b8b40b17">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-c9cac5eb1a8e4bf781ef2800387ae4d2.xml#id-c9cac5eb1a8e4bf781ef2800387ae4d2"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-882b8d85b2f94af9a182ccbbda39b241"
           font="1|Lucida Grande|11.0|0|COCOA|1|"
           fontColor="#000000"
@@ -230,6 +218,18 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-cb79ff09b78248f6a1e0f44e19714791.xml#id-cb79ff09b78248f6a1e0f44e19714791"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-8d6417bcb4b54082bd7db1a5be5cda97"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          fontColor="#000000"
+          lineColor="#000000"
+          source="id-d55423f9aa9d42adb8351478b61e55ff"
+          target="id-89fb12dec4504b1c94db6d38b8b40b17">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-f8e8f7c2-352b-4da4-a2ce-d66ada9928fa.xml#id-f8e8f7c2-352b-4da4-a2ce-d66ada9928fa"/>
       </sourceConnections>
       <bounds
           x="354"
@@ -291,18 +291,6 @@
         fillColor="#fefeb4">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-34c709f9f22e490bacc05073a0359c19"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
-          source="id-6a85044a8fb44f2f8948ab12a98f28f3"
-          target="id-d55423f9aa9d42adb8351478b61e55ff">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-9c5e98258fa0436eb91c29fb1b5d23bb.xml#id-9c5e98258fa0436eb91c29fb1b5d23bb"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-0a7de3f7ba7d4b9bb51422d50c4707c7"
           font="1|Lucida Grande|11.0|0|COCOA|1|"
           fontColor="#000000"
@@ -312,6 +300,18 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-e32ff8c5db4a47ffb23d9b345e42f760.xml#id-e32ff8c5db4a47ffb23d9b345e42f760"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-34c709f9f22e490bacc05073a0359c19"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          fontColor="#000000"
+          lineColor="#000000"
+          source="id-6a85044a8fb44f2f8948ab12a98f28f3"
+          target="id-d55423f9aa9d42adb8351478b61e55ff">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-f74ac804-79e6-40a6-992f-c50b4f045c90.xml#id-f74ac804-79e6-40a6-992f-c50b4f045c90"/>
       </sourceConnections>
       <bounds
           x="354"
@@ -332,18 +332,6 @@
         fillColor="#fefeb4">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-614e0a07face4f79a538a0d2a68e4eba"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
-          source="id-a7310953c3d54f3d8881b9dc639196c3"
-          target="id-48321b63332f4d56a79f021d10c8974c">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-8e2acc4380474ebb8aeccc1d3416269b.xml#id-8e2acc4380474ebb8aeccc1d3416269b"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-5b35dc9fa6754f19b451416598795d24"
           font="1|Lucida Grande|11.0|0|COCOA|1|"
           fontColor="#000000"
@@ -353,6 +341,18 @@
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_id-9fcb354de4cd4ccfbb87569093f04e95.xml#id-9fcb354de4cd4ccfbb87569093f04e95"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-614e0a07face4f79a538a0d2a68e4eba"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          fontColor="#000000"
+          lineColor="#000000"
+          source="id-a7310953c3d54f3d8881b9dc639196c3"
+          target="id-48321b63332f4d56a79f021d10c8974c">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-7570b853-aee4-4a58-a791-9fe8be675dd6.xml#id-7570b853-aee4-4a58-a791-9fe8be675dd6"/>
       </sourceConnections>
       <bounds
           x="432"

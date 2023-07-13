@@ -121,18 +121,6 @@
         fillColor="#fefeb4">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-5145caeb06b54ceb92086560d5537ad7"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
-          source="id-49af30a02ad541df9e5d88548a377d09"
-          target="id-c3dc6b169a2e4acdbb8ce8496e72e796">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-d9c533aecd5f4bfc80fef707d13b4ad5.xml#id-d9c533aecd5f4bfc80fef707d13b4ad5"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-62b6e05ada8c436e8bdd71f1111e67f0"
           font="1|Lucida Grande|11.0|0|COCOA|1|"
           fontColor="#000000"
@@ -141,7 +129,19 @@
           target="id-18dcd0fb0dcf46d4bc9a6a5ed04f7128">
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-0bdbb595d996461ca01d0c2e7bb70a21.xml#id-0bdbb595d996461ca01d0c2e7bb70a21"/>
+            href="AssociationRelationship_id-0b49106e-8e0d-4868-ad7b-fbe77ea922d9.xml#id-0b49106e-8e0d-4868-ad7b-fbe77ea922d9"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5145caeb06b54ceb92086560d5537ad7"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          fontColor="#000000"
+          lineColor="#000000"
+          source="id-49af30a02ad541df9e5d88548a377d09"
+          target="id-c3dc6b169a2e4acdbb8ce8496e72e796">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-96f3ee4a-4e0b-4427-a6ac-941b7f0accd8.xml#id-96f3ee4a-4e0b-4427-a6ac-941b7f0accd8"/>
       </sourceConnections>
       <bounds
           x="24"
@@ -189,7 +189,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c3dc6b169a2e4acdbb8ce8496e72e796"
-        targetConnections="id-5145caeb06b54ceb92086560d5537ad7 id-55b95caf5f0945c888ca06a955b51163"
+        targetConnections="id-55b95caf5f0945c888ca06a955b51163 id-5145caeb06b54ceb92086560d5537ad7"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"

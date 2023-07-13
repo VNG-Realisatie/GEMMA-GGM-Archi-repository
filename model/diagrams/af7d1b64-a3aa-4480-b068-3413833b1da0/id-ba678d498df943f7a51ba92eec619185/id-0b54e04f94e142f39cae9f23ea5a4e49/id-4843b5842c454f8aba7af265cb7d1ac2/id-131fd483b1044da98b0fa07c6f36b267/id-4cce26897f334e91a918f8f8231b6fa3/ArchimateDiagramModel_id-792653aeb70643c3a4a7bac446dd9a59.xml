@@ -115,7 +115,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ab3ba2c34ceb443b87240bb5b4d96350"
-        targetConnections="id-733e63e3c9ee45d2b780713b9766b871 id-2b34dcab69514da0b277553acb43a46d id-9daa11c916764f048757c4efa460b704 id-afe9c2c4014141ca9363536251798f98"
+        targetConnections="id-733e63e3c9ee45d2b780713b9766b871 id-afe9c2c4014141ca9363536251798f98 id-9daa11c916764f048757c4efa460b704 id-2b34dcab69514da0b277553acb43a46d"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"
@@ -142,34 +142,7 @@
           target="id-f623d82f6bdb46fb92996de81253d999">
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-63e71bfa712c4ca89ca34b65318a17a2.xml#id-63e71bfa712c4ca89ca34b65318a17a2"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-9daa11c916764f048757c4efa460b704"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
-          source="id-ab3ba2c34ceb443b87240bb5b4d96350"
-          target="id-ab3ba2c34ceb443b87240bb5b4d96350">
-        <bendpoints
-            startX="23"
-            startY="57"
-            endX="23"
-            endY="57"/>
-        <bendpoints
-            startX="95"
-            startY="57"
-            endX="95"
-            endY="57"/>
-        <bendpoints
-            startX="95"
-            startY="9"
-            endX="95"
-            endY="9"/>
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-edc22034d67f4b5da537f35bbeb8e5d3.xml#id-edc22034d67f4b5da537f35bbeb8e5d3"/>
+            href="AssociationRelationship_id-fa90de4f-c686-4701-a3a0-5a67856c004d.xml#id-fa90de4f-c686-4701-a3a0-5a67856c004d"/>
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -196,7 +169,34 @@
             endY="-15"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-985f7ea0fcf942d48341fff73183dd98.xml#id-985f7ea0fcf942d48341fff73183dd98"/>
+            href="AssociationRelationship_id-87d7e92a-583f-4b4a-aa34-019abcfbd939.xml#id-87d7e92a-583f-4b4a-aa34-019abcfbd939"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-9daa11c916764f048757c4efa460b704"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          fontColor="#000000"
+          lineColor="#000000"
+          source="id-ab3ba2c34ceb443b87240bb5b4d96350"
+          target="id-ab3ba2c34ceb443b87240bb5b4d96350">
+        <bendpoints
+            startX="23"
+            startY="57"
+            endX="23"
+            endY="57"/>
+        <bendpoints
+            startX="95"
+            startY="57"
+            endX="95"
+            endY="57"/>
+        <bendpoints
+            startX="95"
+            startY="9"
+            endX="95"
+            endY="9"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-0b81cd99-db7f-40a0-bd64-26fcbc96420a.xml#id-0b81cd99-db7f-40a0-bd64-26fcbc96420a"/>
       </sourceConnections>
       <bounds
           x="409"
@@ -225,7 +225,7 @@
           target="id-ab3ba2c34ceb443b87240bb5b4d96350">
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-831d31f726b742a8867bd212e3f4901a.xml#id-831d31f726b742a8867bd212e3f4901a"/>
+            href="AssociationRelationship_id-520bc9f9-923b-4ed1-b58c-4940d065f52e.xml#id-520bc9f9-923b-4ed1-b58c-4940d065f52e"/>
       </sourceConnections>
       <bounds
           x="168"
@@ -239,7 +239,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f623d82f6bdb46fb92996de81253d999"
-        targetConnections="id-4b5327ae8c0f4395aee471e0de8dfe33 id-932539f26e22493db6eb2d0872b9a582"
+        targetConnections="id-932539f26e22493db6eb2d0872b9a582 id-4b5327ae8c0f4395aee471e0de8dfe33"
         font="1|Lucida Grande|11.0|0|COCOA|1|"
         fontColor="#000000"
         lineColor="#4f4f4f"

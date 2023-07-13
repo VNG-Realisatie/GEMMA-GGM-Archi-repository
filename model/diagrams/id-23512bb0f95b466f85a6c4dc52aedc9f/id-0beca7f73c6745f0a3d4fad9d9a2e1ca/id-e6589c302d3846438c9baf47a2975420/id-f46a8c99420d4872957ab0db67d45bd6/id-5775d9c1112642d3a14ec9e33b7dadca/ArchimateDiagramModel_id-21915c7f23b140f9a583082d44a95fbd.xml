@@ -220,7 +220,7 @@
           target="id-3d40c2033fd44ca2a1c3a4f440734063">
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-c9cac5eb1a8e4bf781ef2800387ae4d2.xml#id-c9cac5eb1a8e4bf781ef2800387ae4d2"/>
+            href="AssociationRelationship_id-f8e8f7c2-352b-4da4-a2ce-d66ada9928fa.xml#id-f8e8f7c2-352b-4da4-a2ce-d66ada9928fa"/>
       </sourceConnections>
       <bounds
           x="354"
@@ -282,18 +282,6 @@
         fillColor="#fefeb4">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-0a218e84bdfc45cb940acc6015c657b9"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
-          source="id-69eebf88ca664e44b730eb4005ffd471"
-          target="id-3adcac94223b41849728268a9624dd97">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-8e2acc4380474ebb8aeccc1d3416269b.xml#id-8e2acc4380474ebb8aeccc1d3416269b"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-1def0e8fa87848d1a06f8a9132175af4"
           font="1|Lucida Grande|11.0|0|COCOA|1|"
           fontColor="#000000"
@@ -303,6 +291,18 @@
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_id-9fcb354de4cd4ccfbb87569093f04e95.xml#id-9fcb354de4cd4ccfbb87569093f04e95"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-0a218e84bdfc45cb940acc6015c657b9"
+          font="1|Lucida Grande|11.0|0|COCOA|1|"
+          fontColor="#000000"
+          lineColor="#000000"
+          source="id-69eebf88ca664e44b730eb4005ffd471"
+          target="id-3adcac94223b41849728268a9624dd97">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-7570b853-aee4-4a58-a791-9fe8be675dd6.xml#id-7570b853-aee4-4a58-a791-9fe8be675dd6"/>
       </sourceConnections>
       <bounds
           x="432"
