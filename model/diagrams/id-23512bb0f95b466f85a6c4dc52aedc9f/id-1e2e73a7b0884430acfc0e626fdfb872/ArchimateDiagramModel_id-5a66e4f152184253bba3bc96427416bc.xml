@@ -6,14 +6,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-00823ae3ae1b4eeaa0ad8a932dc84ba8"
-      font="1|Arial|12.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#fffffe">
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-a5ef89ba6e074cf2b0c9135e28cc5ffc"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-00823ae3ae1b4eeaa0ad8a932dc84ba8"
         target="id-469cb46cb47548f09c4dbd6b00dc4536">
       <archimateRelationship
@@ -23,6 +21,7 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-13e22442ea7e4050b245b2c8dda55465"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-00823ae3ae1b4eeaa0ad8a932dc84ba8"
         target="id-b5162f4de24945dbb830d63bc2095c19">
       <archimateRelationship
@@ -38,10 +37,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-469cb46cb47548f09c4dbd6b00dc4536"
         targetConnections="id-a5ef89ba6e074cf2b0c9135e28cc5ffc"
-        font="1|Lucida Grande|10.0|0|COCOA|1|"
-        fontColor="#000000"
-        lineColor="#4f4f4f"
-        fillColor="#fefeb4">
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
       <bounds
           x="20"
           y="30"
@@ -55,6 +51,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b5162f4de24945dbb830d63bc2095c19"
         targetConnections="id-13e22442ea7e4050b245b2c8dda55465"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         textAlignment="1">
       <bounds
           x="190"
@@ -63,7 +60,8 @@
           height="101"/>
       <children
           xsi:type="archimate:DiagramModelReference"
-          id="id-7ff0fa3258694866add338cc1c6e09dd">
+          id="id-7ff0fa3258694866add338cc1c6e09dd"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI">
         <bounds
             x="30"
             y="40"

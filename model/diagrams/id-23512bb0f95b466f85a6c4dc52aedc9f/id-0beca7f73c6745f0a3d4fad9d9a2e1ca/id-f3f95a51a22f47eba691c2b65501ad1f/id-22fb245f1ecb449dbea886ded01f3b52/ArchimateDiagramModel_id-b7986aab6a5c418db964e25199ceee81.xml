@@ -6,14 +6,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-82824927fc5542e8a06b7e930f5d6122"
-      font="1|Lucida Grande|11.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#fffffe">
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-b62b5568df7741e0a39e3912c5605a56"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-82824927fc5542e8a06b7e930f5d6122"
         target="id-df1b25cfd58d48bcb0a4073743ec4d18">
       <archimateRelationship
@@ -23,6 +21,7 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-23739be73d3f48c38b8de2932016bb83"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-82824927fc5542e8a06b7e930f5d6122"
         target="id-a3cfd7b3d8434c83bfea3f02706c58fb">
       <archimateRelationship
@@ -38,16 +37,11 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-df1b25cfd58d48bcb0a4073743ec4d18"
         targetConnections="id-b62b5568df7741e0a39e3912c5605a56"
-        font="1|Lucida Grande|11.0|0|COCOA|1|"
-        fontColor="#000000"
-        lineColor="#4f4f4f"
-        fillColor="#fefeb4">
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-23c651e33f6640bd902d01ed27ddf7b8"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
           source="id-df1b25cfd58d48bcb0a4073743ec4d18"
           target="id-a3cfd7b3d8434c83bfea3f02706c58fb">
         <archimateRelationship
@@ -67,10 +61,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a3cfd7b3d8434c83bfea3f02706c58fb"
         targetConnections="id-23739be73d3f48c38b8de2932016bb83 id-23c651e33f6640bd902d01ed27ddf7b8"
-        font="1|Lucida Grande|11.0|0|COCOA|1|"
-        fontColor="#000000"
-        lineColor="#4f4f4f"
-        fillColor="#fefeb4">
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
       <bounds
           x="264"
           y="55"

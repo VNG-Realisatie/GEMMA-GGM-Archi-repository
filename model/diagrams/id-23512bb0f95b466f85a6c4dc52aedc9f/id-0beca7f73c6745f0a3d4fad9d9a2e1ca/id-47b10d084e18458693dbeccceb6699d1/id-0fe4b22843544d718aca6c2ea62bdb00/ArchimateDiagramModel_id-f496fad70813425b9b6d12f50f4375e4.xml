@@ -6,14 +6,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-af7cd926535d406e9b644a0ea059924a"
-      font="1|Lucida Grande|11.0|0|COCOA|1|"
-      fontColor="#000000"
-      lineColor="#4f4f4f"
-      textAlignment="1"
-      fillColor="#fffffe">
+      font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
+      textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-60c979b508314a28a00c53fad7e3ef7c"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-af7cd926535d406e9b644a0ea059924a"
         target="id-baf3827cbc57472c824e8faa2f78b6d9">
       <archimateRelationship
@@ -23,6 +21,7 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-0649fc851b7b46ea8db36dcb99113291"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-af7cd926535d406e9b644a0ea059924a"
         target="id-95074c7fd8684b28a57fbea90810a5c0">
       <archimateRelationship
@@ -32,6 +31,7 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-de21c2be030d45b38f7b93487132bb2d"
+        font="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|0|0|0|0|0|3|2|1|34|Segoe UI"
         source="id-af7cd926535d406e9b644a0ea059924a"
         target="id-ac7865932231476bb02f363207ac13c1">
       <archimateRelationship
@@ -47,16 +47,11 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ac7865932231476bb02f363207ac13c1"
         targetConnections="id-de21c2be030d45b38f7b93487132bb2d"
-        font="1|Lucida Grande|11.0|0|COCOA|1|"
-        fontColor="#000000"
-        lineColor="#4f4f4f"
-        fillColor="#fefeb4">
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-ea9f1049def1475494dee0224a8bb03e"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
           source="id-ac7865932231476bb02f363207ac13c1"
           target="id-baf3827cbc57472c824e8faa2f78b6d9">
         <bendpoints
@@ -81,16 +76,11 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-95074c7fd8684b28a57fbea90810a5c0"
         targetConnections="id-0649fc851b7b46ea8db36dcb99113291"
-        font="1|Lucida Grande|11.0|0|COCOA|1|"
-        fontColor="#000000"
-        lineColor="#4f4f4f"
-        fillColor="#fefeb4">
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-f65eefdbf9ad4fe1b8c10e094ebb04d0"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
           source="id-95074c7fd8684b28a57fbea90810a5c0"
           target="id-baf3827cbc57472c824e8faa2f78b6d9">
         <archimateRelationship
@@ -110,16 +100,11 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-baf3827cbc57472c824e8faa2f78b6d9"
         targetConnections="id-0582ed9a4f9041fd84a0df29903df4f2 id-60c979b508314a28a00c53fad7e3ef7c id-f65eefdbf9ad4fe1b8c10e094ebb04d0 id-ea9f1049def1475494dee0224a8bb03e"
-        font="1|Lucida Grande|11.0|0|COCOA|1|"
-        fontColor="#000000"
-        lineColor="#4f4f4f"
-        fillColor="#fefeb4">
+        font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-0582ed9a4f9041fd84a0df29903df4f2"
-          font="1|Lucida Grande|11.0|0|COCOA|1|"
-          fontColor="#000000"
-          lineColor="#000000"
+          font="1|Segoe UI|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Segoe UI"
           source="id-baf3827cbc57472c824e8faa2f78b6d9"
           target="id-baf3827cbc57472c824e8faa2f78b6d9">
         <bendpoints
