@@ -1,0 +1,29 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="heeft betrekking op"
+    id="id-6abf6bcef8dd49ffa4e738676deca46a"
+    documentation="Een verwijzing naar het recht dat door een persoon wordt uitgeoefend op een kadastrale onroerende zaak."
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{37F7170A-15AE-4bf3-9042-193E6084A3E8}"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="c3d59e10-5df1-42cf-b4f8-5b3defd85cd5"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-c19e3d27a1524270a0b6444d98ce5391.xml#id-c19e3d27a1524270a0b6444d98ce5391"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-7ab2874e74e14f948fe3c25a4442b679.xml#id-7ab2874e74e14f948fe3c25a4442b679"/>
+</archimate:AssociationRelationship>

@@ -1,0 +1,29 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="zonder verblijfsobject ligt in"
+    id="id-2b64aab47f474fdfa1b6a73985e583a9"
+    documentation="De BUURT waarin het PAND gelegen is waarbinnen zich geen verblijfsobjecten bevinden."
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{DD1F44A8-B55B-40e6-A5CB-CC8555D9635D}"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="0b8941f7-7bf4-4648-b5b1-745e74171595"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-1693fcb8d60945a8b4b081e0de57850f.xml#id-1693fcb8d60945a8b4b081e0de57850f"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-7691173309d94a33b39c19d730dc5027.xml#id-7691173309d94a33b39c19d730dc5027"/>
+</archimate:AssociationRelationship>

@@ -1,0 +1,29 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="is ontbonden in"
+    id="id-cad8ff6416e2448daf8a8ea35a55ac0b"
+    documentation="De woonplaats van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd."
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{9C3FAABF-FF65-4d81-9E7B-D0A78B5A910B}"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="620c5fc5-9617-4f98-82c2-f8360c95a2de"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-e0363498d1a746d18a49fc5b15153999.xml#id-e0363498d1a746d18a49fc5b15153999"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-d87c4b2a4b9e47adbf7836ab98c2f510.xml#id-d87c4b2a4b9e47adbf7836ab98c2f510"/>
+</archimate:AssociationRelationship>

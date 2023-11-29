@@ -1,0 +1,29 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="heeft plaatsgevonden in"
+    id="id-e17f6c5f80924fc091c39e62318d688a"
+    documentation="De naam van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar de persoon is overleden."
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{7E3CD65C-48E2-4879-B654-AA2E4CA0503F}"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="71dbee88-9c8d-4849-a934-83ec51f9ef84"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-74e17d228444493e95ef501fd946342b.xml#id-74e17d228444493e95ef501fd946342b"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-d87c4b2a4b9e47adbf7836ab98c2f510.xml#id-d87c4b2a4b9e47adbf7836ab98c2f510"/>
+</archimate:AssociationRelationship>

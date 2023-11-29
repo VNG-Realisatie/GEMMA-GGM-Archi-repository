@@ -1,0 +1,26 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="is"
+    id="id-783483bd25244ebbac57f2550878439d"
+    documentation="Een VESTIGING is een specialisatie van BETROKKENE."
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{90A5DA8A-9CBA-444a-93C8-9665C5DF1A99}"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="6ab2f95b-d766-4f95-9ad1-01848257a629"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-52d69d2122104a25b8b5d6b30bd47928.xml#id-52d69d2122104a25b8b5d6b30bd47928"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-0b791cbe5c2b46ecad6eca3bf9f0939b.xml#id-0b791cbe5c2b46ecad6eca3bf9f0939b"/>
+</archimate:AssociationRelationship>

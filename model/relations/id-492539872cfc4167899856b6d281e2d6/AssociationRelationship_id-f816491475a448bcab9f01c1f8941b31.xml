@@ -1,0 +1,29 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="is gesloten/aangegaan in"
+    id="id-f816491475a448bcab9f01c1f8941b31"
+    documentation="De naam van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan."
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{F8489A80-C576-4766-910C-C5770F526B92}"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="b49f04ca-55ef-48fc-bc42-d879912a018c"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-ea90e97b987b4b4b9eaea1cdba30ce24.xml#id-ea90e97b987b4b4b9eaea1cdba30ce24"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-d87c4b2a4b9e47adbf7836ab98c2f510.xml#id-d87c4b2a4b9e47adbf7836ab98c2f510"/>
+</archimate:AssociationRelationship>

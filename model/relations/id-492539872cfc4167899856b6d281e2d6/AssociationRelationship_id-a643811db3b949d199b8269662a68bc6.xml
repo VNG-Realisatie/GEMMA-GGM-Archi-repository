@@ -1,0 +1,29 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="rust op"
+    id="id-a643811db3b949d199b8269662a68bc6"
+    documentation="De KADASTRAAL ONROERENDE ZAAK waarop een ZEKERHEIDSRECHT rust."
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{3D506CBC-2417-4aee-83A2-EC872CC303C7}"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="0cf6aeb6-5591-4a4d-92cf-ced8a835dc55"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-f7490d96c8954bb3812d56ef5e95f119.xml#id-f7490d96c8954bb3812d56ef5e95f119"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-2fd611eac50e4e1aa6f50e38de600d72.xml#id-2fd611eac50e4e1aa6f50e38de600d72"/>
+</archimate:AssociationRelationship>

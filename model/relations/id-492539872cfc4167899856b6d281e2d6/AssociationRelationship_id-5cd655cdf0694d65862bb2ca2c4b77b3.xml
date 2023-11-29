@@ -1,0 +1,29 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="verblijft op"
+    id="id-5cd655cdf0694d65862bb2ca2c4b77b3"
+    documentation="De STANDPLAATS behorende bij het woonadres van de persoon"
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{3DFCCBD6-B0BB-4299-B67B-978A0FC90E27}"/>
+  <properties
+      key="toelichting"
+      value="&lt;memo>"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="2619386b-2c5a-4748-b129-e6a7d012b68e"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-3a215f4bc1764cb7aba0212ccbe1e71e.xml#id-3a215f4bc1764cb7aba0212ccbe1e71e"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-09e4c8e099584a1bbe12cb3025e2163c.xml#id-09e4c8e099584a1bbe12cb3025e2163c"/>
+</archimate:AssociationRelationship>

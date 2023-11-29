@@ -1,0 +1,26 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="heeft als hoofdadres"
+    id="id-6a2a5ed1bb704207b493be919205cd44"
+    documentation="De unieke aanduiding van de Nummeraanduiding die in het kader van de Basisregistratie Adressen en Gebouwen is aangemerkt als het hoofdadres van een adresseerbaar object."
+    directed="true">
+  <properties
+      key="ggm-guid"
+      value="{293514AA-9A4B-445c-8F4C-7F85C924AFB8}"/>
+  <properties
+      key="datum-tijd-export"
+      value="06112023-07:59:13"/>
+  <properties
+      key="uml-type"
+      value="Association"/>
+  <properties
+      key="Object ID"
+      value="ffd9405e-b21a-4ddb-9e15-88df2ad75a3c"/>
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-1a8266694dc94c8ea624859812f7060a.xml#id-1a8266694dc94c8ea624859812f7060a"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_id-43a93f6f42914e3198816566fc0264b3.xml#id-43a93f6f42914e3198816566fc0264b3"/>
+</archimate:AssociationRelationship>
