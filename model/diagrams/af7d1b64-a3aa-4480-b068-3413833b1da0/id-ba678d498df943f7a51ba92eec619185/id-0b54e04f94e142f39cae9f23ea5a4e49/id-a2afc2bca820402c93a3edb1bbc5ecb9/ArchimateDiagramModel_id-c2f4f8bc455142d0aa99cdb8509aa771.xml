@@ -135,30 +135,12 @@
           value="false"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-d72511cfc33f4c8fa978d70d725d10fc"
-          source="id-c0404bcf1012413a92ef11ce5ca2dce5"
-          target="id-aebbc22298bb4c81961fd070fdab7f23">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-1b46653339884b1bbe4f086708e545bb.xml#id-1b46653339884b1bbe4f086708e545bb"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-86405c98a8714fa7816947970b3d869c"
           source="id-c0404bcf1012413a92ef11ce5ca2dce5"
           target="id-92eeeab0ab4e42838f0a6e0e413d38a8">
         <archimateRelationship
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-d8a4b272fbe649d8b44e0cc68729265e.xml#id-d8a4b272fbe649d8b44e0cc68729265e"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-7364c0b0e501419aa6a9513f2a7c4acd"
-          source="id-c0404bcf1012413a92ef11ce5ca2dce5"
-          target="id-d288725773ba45c3afbd2b35819513da">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_id-bb5e247839a241ae81f4995488d71704.xml#id-bb5e247839a241ae81f4995488d71704"/>
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -177,6 +159,15 @@
         <archimateRelationship
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-969cf4500d4b46a7a5bacfa14698f00d.xml#id-969cf4500d4b46a7a5bacfa14698f00d"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d72511cfc33f4c8fa978d70d725d10fc"
+          source="id-c0404bcf1012413a92ef11ce5ca2dce5"
+          target="id-aebbc22298bb4c81961fd070fdab7f23">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-f1df9296942642a99ff27db2fb6a5cda.xml#id-f1df9296942642a99ff27db2fb6a5cda"/>
       </sourceConnections>
       <bounds
           x="30"
@@ -269,39 +260,6 @@
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
-          id="id-d288725773ba45c3afbd2b35819513da"
-          targetConnections="id-7364c0b0e501419aa6a9513f2a7c4acd"
-          textAlignment="1"
-          fillColor="#ffffff">
-        <features
-            name="deriveElementLineColor"
-            value="false"/>
-        <bounds
-            x="630"
-            y="30"
-            width="161"
-            height="90"/>
-        <children
-            xsi:type="archimate:DiagramModelReference"
-            id="id-4f070f3aef41435b95a713ab61a3c6c4">
-          <features
-              name="deriveElementLineColor"
-              value="false"/>
-          <bounds
-              x="20"
-              y="30"
-              width="120"
-              height="55"/>
-          <referencedModel
-              xsi:type="archimate:ArchimateDiagramModel"
-              href="ArchimateDiagramModel_id-8bb153f0552f4df79860476364137a17.xml#id-8bb153f0552f4df79860476364137a17"/>
-        </children>
-        <archimateElement
-            xsi:type="archimate:Grouping"
-            href="Grouping_id-55ed6a78e71a4e599dd970253c2bb80c.xml#id-55ed6a78e71a4e599dd970253c2bb80c"/>
-      </children>
-      <children
-          xsi:type="archimate:DiagramModelArchimateObject"
           id="id-aebbc22298bb4c81961fd070fdab7f23"
           targetConnections="id-d72511cfc33f4c8fa978d70d725d10fc"
           textAlignment="1"
@@ -331,7 +289,7 @@
         </children>
         <archimateElement
             xsi:type="archimate:Grouping"
-            href="Grouping_id-88f59d5ee6ce43f28cc470998de6a9ed.xml#id-88f59d5ee6ce43f28cc470998de6a9ed"/>
+            href="Grouping_id-6acf11d3044e4bf09326bf5ace7c0f36.xml#id-6acf11d3044e4bf09326bf5ace7c0f36"/>
       </children>
       <archimateElement
           xsi:type="archimate:Grouping"
