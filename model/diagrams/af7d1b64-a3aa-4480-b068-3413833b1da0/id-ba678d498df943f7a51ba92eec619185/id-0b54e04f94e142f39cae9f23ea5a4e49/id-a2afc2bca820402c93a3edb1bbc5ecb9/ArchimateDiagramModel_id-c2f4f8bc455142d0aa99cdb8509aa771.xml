@@ -1480,6 +1480,24 @@
             value="false"/>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-6baebe652c164d3bb7b013a9b5e38bdf"
+            source="id-7294bf5c91f74c14a96132310dc72c94"
+            target="id-30fe78c27d75443da6777c3e046fc99e">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-bfbd2688fd21482c818659dd71859b63.xml#id-bfbd2688fd21482c818659dd71859b63"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-711a5bfa9f844c68b56829d1ac3edd9c"
+            source="id-7294bf5c91f74c14a96132310dc72c94"
+            target="id-3ee636cd0906493bb16c54d17aead378">
+          <archimateRelationship
+              xsi:type="archimate:AggregationRelationship"
+              href="AggregationRelationship_id-12aaf67990e048eca5d2400bff3b3cd9.xml#id-12aaf67990e048eca5d2400bff3b3cd9"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-b4238a509c704977b795226a3888db68"
             source="id-7294bf5c91f74c14a96132310dc72c94"
             target="id-74a297a2cdfa4cb88d8c0c3fd203e02c">
@@ -1495,24 +1513,6 @@
           <archimateRelationship
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_id-0fa0e76fbbe049f69da8798837899b95.xml#id-0fa0e76fbbe049f69da8798837899b95"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-711a5bfa9f844c68b56829d1ac3edd9c"
-            source="id-7294bf5c91f74c14a96132310dc72c94"
-            target="id-3ee636cd0906493bb16c54d17aead378">
-          <archimateRelationship
-              xsi:type="archimate:AggregationRelationship"
-              href="AggregationRelationship_id-12aaf67990e048eca5d2400bff3b3cd9.xml#id-12aaf67990e048eca5d2400bff3b3cd9"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-6baebe652c164d3bb7b013a9b5e38bdf"
-            source="id-7294bf5c91f74c14a96132310dc72c94"
-            target="id-30fe78c27d75443da6777c3e046fc99e">
-          <archimateRelationship
-              xsi:type="archimate:AggregationRelationship"
-              href="AggregationRelationship_id-bfbd2688fd21482c818659dd71859b63.xml#id-bfbd2688fd21482c818659dd71859b63"/>
         </sourceConnections>
         <bounds
             x="20"
