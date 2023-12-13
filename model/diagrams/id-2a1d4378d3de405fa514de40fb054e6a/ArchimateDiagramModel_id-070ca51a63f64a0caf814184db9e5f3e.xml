@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="GGM data-objectmodellen (iv3)"
     id="id-070ca51a63f64a0caf814184db9e5f3e"
-    documentation="Dit model bevat een ArchiMate weergave van het GGM UML informatiemodel. &#xD;&#xA;&#xD;&#xA;De GGM UML classes, enumeraties en relations zijn ingelezen en omgezet naar ArchiMate objecten. Vervolgens zijn er met een script views per iv3-domein gegenereerd.&#xD;&#xA;&#xD;&#xA;De GGM data-objectenviews bevatten alle GGM objecten. De GEMMA bedrijfsobjectmodellen bevatten een selectie van de GGM objecten. &#xD;&#xA;&#xD;&#xA;Alleen de bedrijfsobjectmodellen zijn onderdeel van de GEMMA en kunnen gaan afwijken van het onderliggende GGM">
+    documentation="Via deze indelingsview heb je toegang tot alle GGM data-objectmodellen. &#xD;&#xA;&#xD;&#xA;De data-objectmodellen bevatten een ArchiMate weergave van het GGM UML informatiemodel. &#xD;&#xA;&#xD;&#xA;De GGM UML classes, enumeraties en relations zijn ingelezen en omgezet naar ArchiMate objecten. Vervolgens zijn er met een script per iv3-domein views gegenereerd.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-95206c144d0e4770927d98dc42911943"
