@@ -94,7 +94,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="325"
         y="30"

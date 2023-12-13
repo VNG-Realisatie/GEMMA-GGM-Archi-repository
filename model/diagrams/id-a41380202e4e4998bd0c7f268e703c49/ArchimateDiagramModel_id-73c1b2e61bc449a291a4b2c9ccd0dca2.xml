@@ -338,7 +338,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-fb74ce2ffa384400a70a0680b539a26e"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-89fd9c77b73b4470a8310c066fdc7623"
           target="id-547b5037a46148d1bffa90caa41fb534">
         <bendpoints
@@ -1481,7 +1481,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="325"
         y="750"

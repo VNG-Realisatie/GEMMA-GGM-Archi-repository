@@ -98,7 +98,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-7b0d885236ed4d8f855ef9eb97d2294f"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-80db96879a584e37bce026ef4a2f6fc6"
           target="id-4d0f2665579849e1834544c587df6eb1">
         <bendpoints
@@ -166,7 +166,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-08aa54a530d9456a96eb8fde285c014a"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-298ecf892476487cb6af8ce3b073d227"
           target="id-4d0f2665579849e1834544c587df6eb1">
         <bendpoints
@@ -231,7 +231,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-3c8e77e487a542e7b2c19f62f9cc2a93"

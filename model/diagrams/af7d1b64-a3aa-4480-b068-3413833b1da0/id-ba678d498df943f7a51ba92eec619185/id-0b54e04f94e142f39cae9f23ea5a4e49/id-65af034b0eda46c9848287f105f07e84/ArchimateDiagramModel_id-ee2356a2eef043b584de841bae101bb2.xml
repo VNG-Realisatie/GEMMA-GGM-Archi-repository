@@ -2650,7 +2650,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c3f2f35cc6034c0f86cd192166ce85e4"
@@ -2703,7 +2703,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="835"
         y="1460"
@@ -2722,7 +2722,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="835"
         y="1541"
@@ -2740,12 +2740,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-e570fdf527414eeb82048f0b08698470"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-5a15c342fed94bcbaf3f3689a9e6fd06"
         target="id-717dbd7d78af492eaf23a67d5093adc8">
       <bendpoints
@@ -2794,12 +2794,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ea2ab1a5c8ee4baca5a9a6d09bef2635"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-4e5e4f810ffb42c7a2f416e00010c52b"
         target="id-717dbd7d78af492eaf23a67d5093adc8">
       <bendpoints
@@ -2848,7 +2848,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d283e363cfe84f709fcf7e509eb5865c"
@@ -2901,7 +2901,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c8c3614bfcab4d6f8176a654191f9c48"
@@ -2954,7 +2954,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-dcd3b5a4c2f04bb7af7da322e444dae8"
@@ -3130,7 +3130,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-6201e12451c14aa39945347ddd9bae8c"
@@ -3276,7 +3276,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-8349ac4815224cf79b87529576928538"
@@ -3329,7 +3329,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-af9bca5b14c449c18643a6340b41bd1e"
@@ -3480,7 +3480,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1385"
         y="1460"
@@ -3499,7 +3499,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="1460"
@@ -3517,7 +3517,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-b3268ee2ef1f415ab53536232dc3c123"
@@ -4001,7 +4001,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-e51f9af79c5a440abd06caf82709d657"
@@ -4053,7 +4053,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-6afeefe5ac7440069e504ba923224c61"
@@ -4106,7 +4106,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1385"
         y="1541"
@@ -4125,7 +4125,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1385"
         y="1622"
@@ -4144,7 +4144,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1385"
         y="1703"
@@ -4163,7 +4163,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-87946609d40e43ae867d91949a32e3e8"
@@ -4314,7 +4314,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1385"
         y="1784"
@@ -4332,7 +4332,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-80167068688c451b92d14e4381167d27"
@@ -4384,12 +4384,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-741f7190e7e7471595fa10ba085e262c"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-47f8702a3d1f40a19b70892d7d6fdbb5"
         target="id-55ca8fdd154245ab8778d52ce86f3a94">
       <bendpoints
@@ -4438,12 +4438,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-05e37182824c43c9b7a2c0c777e0dc16"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-a3c308be6b5e4e7f9db099648dc893e7"
         target="id-55ca8fdd154245ab8778d52ce86f3a94">
       <bendpoints
@@ -4492,7 +4492,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-84f771d84190461b8f00af83aacc6aa0"
@@ -4544,12 +4544,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-81ed9c98a26643bf9637c6e673325d39"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-51da96ddf03a450b9b5f764c4cf8fe86"
         target="id-55ca8fdd154245ab8778d52ce86f3a94">
       <bendpoints
@@ -4598,12 +4598,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-325c7aa3e0fd43f481ca43a99f97d8f8"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-e7afac0544774825a084f9ab5504eb49"
         target="id-55ca8fdd154245ab8778d52ce86f3a94">
       <bendpoints
@@ -4652,7 +4652,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-9ffd68a412a54213b51658cc4b6d3366"
@@ -4768,7 +4768,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-15d0a9a18f59412f93f3cbd6f18766a6"
@@ -4820,7 +4820,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-fa2e8f5f702a4f3e89870dd39ca44aa1"
@@ -4872,7 +4872,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-cdcc23a52228496b85bab65612a9527a"
@@ -4925,7 +4925,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="1541"
@@ -4944,7 +4944,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="1622"
@@ -4963,7 +4963,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="1703"
@@ -4981,12 +4981,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-07471aa085d24c59b3f4b7369614f506"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-f46c5f85d60348319206034103ea02b7"
         target="id-c4ea7eea82834046b79bcd926a9d614c">
       <bendpoints
@@ -5036,7 +5036,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="1865"
@@ -5055,7 +5055,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="1946"
@@ -5074,7 +5074,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="2027"
@@ -5093,7 +5093,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="2108"
@@ -5112,7 +5112,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="2189"
@@ -5131,7 +5131,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="560"
         y="2270"
@@ -5149,7 +5149,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-be12dfc8305041478c8ee0043c4d2a78"
@@ -5196,12 +5196,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-7b603696e3da419a87332562645dfbac"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-722604eab4e94da7ac3cac59a7601a56"
         target="id-c4ea7eea82834046b79bcd926a9d614c">
       <bendpoints
@@ -5250,12 +5250,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-0a78d9c69de6443884bba1564cdadcd2"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-56039c2e904f4bf894ead5ef8932c2a6"
         target="id-c4ea7eea82834046b79bcd926a9d614c">
       <bendpoints
@@ -5304,12 +5304,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-453d3bc4630c4506a8c2b7699b7bd529"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-4c96efdddaff4b538acc80498f9fd7e8"
         target="id-c4ea7eea82834046b79bcd926a9d614c">
       <bendpoints
@@ -5359,7 +5359,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1935"
         y="1622"
@@ -5377,7 +5377,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-e57f0f6186904b918084a45e6a5f794b"
@@ -5493,7 +5493,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-eee8a698eaf44dd9a8cbea187282239d"
@@ -5546,7 +5546,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1110"
         y="1460"
@@ -5564,7 +5564,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-b5aac9db533d4e62810c8c9a5b635ac9"
@@ -5616,12 +5616,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-9c8afd5b80934885b0f4280caf2193b1"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-1b45ec2febc7489786bb8d6087af3c40"
         target="id-9139017d82154a8c9f1a56b2be39c4fa">
       <bendpoints

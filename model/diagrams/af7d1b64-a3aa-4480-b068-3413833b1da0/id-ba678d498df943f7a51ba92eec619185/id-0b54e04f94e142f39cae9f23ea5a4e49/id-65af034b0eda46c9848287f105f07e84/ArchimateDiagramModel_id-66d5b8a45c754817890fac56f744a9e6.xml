@@ -168,7 +168,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-a15b1ff1542a47b5b32d8b8240dd2330"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-54957b7c3ee24905abfea73236783980"
           target="id-38b6f5a8da1f46b1a413595b05352ccf">
         <bendpoints
@@ -545,7 +545,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-422b12656b714525b204ed20dcbfc51f"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-a531aaac4ea247cc9d6d9a0a27024108"
           target="id-eda3259a88ba41cc813c14b8d5d2dbe8">
         <bendpoints
@@ -592,7 +592,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-257189fb9851480f8cdd05a10bdf3fd9"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-48501b12403a4369988b5edc138d860a"
           target="id-38b6f5a8da1f46b1a413595b05352ccf">
         <bendpoints
@@ -680,7 +680,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1385"
         y="475"
@@ -699,7 +699,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="1385"
         y="556"
@@ -717,7 +717,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ac1d2539f6f44a7db1bcd96834674c51"
@@ -770,7 +770,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="10"
         y="364"

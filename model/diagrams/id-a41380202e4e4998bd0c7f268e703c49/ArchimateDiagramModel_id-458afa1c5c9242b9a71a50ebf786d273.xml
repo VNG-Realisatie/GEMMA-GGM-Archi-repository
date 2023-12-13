@@ -339,7 +339,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-cc1ceea1abe8418a914e9a58fc636667"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-5d1bd72ec0e44efb9b1a445162a868e6"
           target="id-1c1eb358e98249f59c4884a18591a496">
         <bendpoints
@@ -1291,7 +1291,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-a23ba94ab7db405991f4100f32fca465"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-c110deef7b4d43b798b23386f674e285"
           target="id-1c1eb358e98249f59c4884a18591a496">
         <bendpoints
@@ -1382,7 +1382,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-fae2c9d9350647b8a802403a0c25e2b0"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-9fe09e6182f94a95804558fd011941d7"
           target="id-1c1eb358e98249f59c4884a18591a496">
         <bendpoints
@@ -3122,7 +3122,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-d3abbca6fd414c4887a73cc62526d614"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-bfb72b41340e40c79669886e9acc8d6d"
           target="id-58edbee900bc4a8c87815a95b5dcced6">
         <bendpoints
@@ -3208,7 +3208,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-e76c4feb89c14af5862f5d7926362074"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-ab718fa0e53347bf8f470b2572d07bef"
           target="id-232d1d5ba1cb436da0302d26dbd65aca">
         <bendpoints
@@ -3345,7 +3345,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-3d16fad7dcf34fe09ea0698f5f949185"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-daeefdd7912142bab88907358364d523"
           target="id-232d1d5ba1cb436da0302d26dbd65aca">
         <bendpoints
@@ -3436,7 +3436,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-5505200f4d744ae79e3813ee4a61cda5"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-10e576fe88b040dfaa9a76e9e9c88343"
           target="id-58edbee900bc4a8c87815a95b5dcced6">
         <bendpoints
@@ -3493,7 +3493,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-19450d0736244092b1274d11725c2f86"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-23857c73bcc24b45a32654528c4d539d"
           target="id-58edbee900bc4a8c87815a95b5dcced6">
         <bendpoints
@@ -3758,7 +3758,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-6970b7b1c398401fbbdb4d3d3a73583f"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-2d898fd8dc6d4cf3a0d74957141bc12b"
           target="id-df181fc07c3a40a0b4a36887fed2cea6">
         <bendpoints
@@ -3815,7 +3815,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-01f267632c674a8b93221b01cd323c95"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-1f2b81e49d9748488b9c9b880ea09323"
           target="id-df181fc07c3a40a0b4a36887fed2cea6">
         <bendpoints
@@ -3872,7 +3872,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-181aae394e814a4aafff09528d56103c"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-6fa8e6dbf11e413a9aba421a128611ea"
           target="id-e77b5ac28e4b4ebb9042d40f8601c1bc">
         <bendpoints
@@ -3929,7 +3929,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-d4c5864d365d4c259ccfbe4a7ba1d5de"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-6da548a3756f48f59cd74c8bde1edadb"
           target="id-e77b5ac28e4b4ebb9042d40f8601c1bc">
         <bendpoints
@@ -3986,7 +3986,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-810d7d39c1af4d44ba478d97d2987b3f"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-1aa9dcf8fc9d4be4ba4bb63f74f54b22"
           target="id-e77b5ac28e4b4ebb9042d40f8601c1bc">
         <bendpoints
@@ -4111,7 +4111,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="10"
         y="1025"
@@ -4135,7 +4135,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-dd5101e7cb1b4cf1b9efa48c7b038ede"
@@ -4193,7 +4193,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="2330"
         y="1530"
@@ -4216,7 +4216,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1c54fbe5562940f489809b8c57e97a92"

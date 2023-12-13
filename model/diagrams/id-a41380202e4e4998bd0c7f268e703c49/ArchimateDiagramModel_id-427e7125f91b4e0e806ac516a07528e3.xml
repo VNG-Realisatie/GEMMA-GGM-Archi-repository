@@ -168,7 +168,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-826b678c090f46a2bcdb817ef8f891bb"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-06ffdd07f4324f01bc7b177ab62b4f63"
           target="id-afef8f51084b45f4a096a296a4e444a3">
         <bendpoints
@@ -740,7 +740,7 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-b419788495c64c35823cd0eb99f00fa4"
           lineWidth="2"
-          lineColor="#2874a6"
+          lineColor="#5dade2"
           source="id-4c1e02dc78024777837d63f6ea58cd5f"
           target="id-49f7b42b89bf468695a8c8cef134fd2e">
         <bendpoints
@@ -1380,7 +1380,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="905"
         y="10"
@@ -1404,7 +1404,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="905"
         y="670"
@@ -1428,7 +1428,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="905"
         y="750"
@@ -1447,7 +1447,7 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
         x="905"
         y="830"
@@ -1470,7 +1470,7 @@
         value="1"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-22e43c54ff7d408d995ffb6cb5def212"

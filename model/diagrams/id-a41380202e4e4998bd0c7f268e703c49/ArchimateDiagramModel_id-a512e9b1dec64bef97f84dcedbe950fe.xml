@@ -123,12 +123,12 @@
         value="false"/>
     <features
         name="labelExpression"
-        value="${name}&#xA;(${property:domein-iv3})"/>
+        value="${name}&#xA;($aggregation:source{name})"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d61988fe10ea4f36a03ccb093e4d4ed6"
         lineWidth="2"
-        lineColor="#2874a6"
+        lineColor="#5dade2"
         source="id-58355cb001594407a54e0bd63364084c"
         target="id-d8bd0f76fccb4b058b93c11e0f1fca27">
       <bendpoints
