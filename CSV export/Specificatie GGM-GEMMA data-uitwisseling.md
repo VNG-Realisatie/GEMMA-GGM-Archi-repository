@@ -9,7 +9,9 @@ De uitwisseling is gemaakt met CSV-bestanden. De samenstelling van de CSV-bestan
 - kolommen met de prefix 'ggm-' worden beheerd door GGM-community
 - kolommen met de prefix 'gemma-' worden beheerd door VNGR
 - Als start neemt GEMMA de GGM definities over en baseert hier de bedrijfsobjecten op
-- de GEMMA bedrijfsobjecten kunnen gaan afwijken van de GGM definities. De definities die verschillen kennen dan zowel een 'ggm-' als een 'gemma-' waarde.
+- de GEMMA bedrijfsobjecten kunnen gaan afwijken van de GGM definities. 
+  - De definities die verschillen kennen dan zowel een 'ggm-' als een 'gemma-' waarde.
+  - er kunnen nieuwe GEMMA bedrijfsobjecten bijkomen. Deze hebben dan geen ggm-guid 
 
 ### GGM CSV-bestanden
 
