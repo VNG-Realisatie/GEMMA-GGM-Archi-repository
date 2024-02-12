@@ -6,86 +6,71 @@ De GGM objecttypen en relaties worden aangeleverd aan de GEMMA. De GEMMA importe
 
 De uitwisseling is gemaakt met CSV-bestanden. De samenstelling van de CSV-bestanden is hieronder gespecificeerd
 
-- kolommen met de prefix 'ggm-' worden beheerd door GGM-community
-- kolommen met de prefix 'gemma-' worden beheerd door VNGR
+- kolommen met de prefix ' GGM-' worden beheerd door GGM-community
+- kolommen met de prefix 'GEMMA-' worden beheerd door VNGR
 - Als start neemt GEMMA de GGM definities over en baseert hier de bedrijfsobjecten op
 - de GEMMA bedrijfsobjecten kunnen gaan afwijken van de GGM definities. 
-  - De definities die verschillen kennen dan zowel een 'ggm-' als een 'gemma-' waarde.
-  - er kunnen nieuwe GEMMA bedrijfsobjecten bijkomen. Deze hebben dan geen ggm-guid 
+  - De definities die verschillen kennen dan zowel een ' GGM-' als een 'GEMMA-' waarde.
+  - er kunnen nieuwe GEMMA bedrijfsobjecten bijkomen. Deze hebben dan geen GGM-guid 
 
-### GGM CSV-bestanden
+### CSV-bestanden
 
-De GGM exportbestanden worden beschikbaar gesteld in de [GGM repository (GitHub)](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel). 
+De GGM exportbestanden worden beschikbaar gesteld in de [GGM repository (GitHub)](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel).
 
-#### ggm_export_objects_&lt;datum-tijd&gt;.csv
+* ggm_export_objects_&lt;datum-tijd&gt;.csv
+* ggm_export_relations_&lt;datum-tijd&gt;.csv
 
-| Kolom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Betekenis | Toelichting import in GEMMA |
-|:---|:---|:---|
-| nr  | regelnummer in CSV bestand | Voor iedere regel wordt een ArchiMate **data-object** aangemaakt of bijgewerkt.<br><br>Het regelnummer zelf wordt niet opgenomen in het data-object, maar wel voor het troubleshooting van import-problemen |
-| ggm-naam | Naam van het objecttype | wordt overgenomen als *name* |
-| ggm-definitie | samenvattende omschrijving van de kenmerken van het object  | wordt overgenomen in *documentation* |
-| ggm-uml-type | Het in het GGM UML model gebruikt type, zoals class of enumeration | wordt overgenomen in *ggm-uml-type* |
-| ggm-toelichting | Aanvullende toelichting op de definitie | indien deze nog niet bestaat of gelijk is aan de huidige waarde, dan overnemen in *toelichting*, anders overnemen in *ggm-toelichting*|
-| ggm-synoniemen  |  Alternatieve naam met min of meer dezelfde betekenis (meerdere mogelijk, comma separated)   | indien deze nog niet bestaat of gelijk is aan de huidige waarde, dan overnemen in *synoniemen*, anders overnemen in *ggm-synoniemen*|
-| ggm-guid | Uniek en niet wijzigend id van het object | wordt overgenomen in *ggm-guid* |
-| bron | Extern informatiemodel waaruit GGM de definities heeft overgenomen | wordt overgenomen in *bron* |
-| domein-iv3 | Op Iv3 gebaseerde beleidsdomeinen. Dit zijn de Iv3 taakvelden plus extras om alle objecttypen te kunnen indelen | wordt overgenomen als relatie met *grouping beleidsdomein* |
-| domein-dcat |  Data Catalog Vocabulary (DCAT) is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.    | nu altijd leeg, nog bepalen of dit een relatie met een grouping wordt of een property |
-| datum-tijd-export | Datum en tijdstip waarop het exportbestand is gemaakt (ddmmyyyy-hh:mm:ss) | overgenomen als ggm-datum-tijd-export  |
+De GEMMA bedrijfsobjectmodellen worden beheerd in de [GEMMA-GGM Archi-repository](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository). Vanuit deze repository worden de [GEMMA CSV bestanden](https://github.com/VNG-Realisatie/ GGM-Archi-repository/tree/develop/CSV%20export) gemaakt en beschikbaar gesteld.
 
-#### ggm_export_relations_&lt;datum-tijd&gt;.csv
+* GEMMA\_Bedrijfsobjecten_element.csv
+* GEMMA\_Bedrijfsobjecten_relatie.csv
 
-| Kolom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Betekenis | Toelichting import in GEMMA |
-|:---|:---|:---|
-| nr  | regelnummer in CSV bestand | Voor iedere regel wordt een relatie tussen 2 data-objecten aangemaakt. Het Archimate type relatie wordt afgeleid van het uml-type.<br><br> Het regelnummer wordt niet opgenomen in het model |
-| ggm-naam | label van de relatie | wordt overgenomen als *name* |
-| ggm-definitie |  samenvattende omschrijving van de kenmerken van de relatie  | wordt overgenomen in *documentation* |
-| ggm-uml-type |     | wordt overgenomen in overeenkomend ArchiMate *type* |
-| ggm-toelichting | Aanvullende toelichting op de definitie | indien deze nog niet bestaat of gelijk is aan de huidige waarde, dan overnemen in *toelichting*, anders overnemen in *ggm-toelichting*|
-| ggm-guid | Unieke en niet wijzigend id van de relatie | wordt overgenomen in *ggm-guid* |
-| ggm-source-guid | Id van het object waar de relatie vandaan komt | wordt gebruikt voor aanmaken relatie met juiste data-object |
-| ggm-target-guid | Id van het object waar de relatie naar toe wijst | wordt gebruikt voor aanmaken relatie met juiste data-object |
-| datum-tijd-export | Datum en tijdstip waarop het exportbestand is gemaakt (ddmmyyyy-hh:mm:ss) | overgenomen als ggm-datum-tijd-export  |
+### Inhoud CSV-bestanden
 
-### GEMMA CSV-bestanden
+#### Elementen
 
-De GEMMA bedrijfsobjectmodellen worden beheerd in de [GGM Archi-repository](https://github.com/VNG-Realisatie/GGM-Archi-repository). Vanuit deze repository worden de [GEMMA CSV bestanden](https://github.com/VNG-Realisatie/GGM-Archi-repository/tree/develop/CSV%20export) gemaakt en beschikbaar gesteld.
+| Kolom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Betekenis  | Eigenschap van GEMMA bedrijfsobject | Toelichting geschreven vanuit GEMMA import- of exportproces |
+| :--- | :--- | :--- | :--- |
+| nr | regelnummer in CSV bestand  | | import: Voor iedere regel wordt een ArchiMate data-object aangemaakt of bijgewerkt. Het regelnummer zelf wordt niet opgenomen in het data-object, maar wel voor het troubleshooting van import-problemen |
+| GGM-naam | Naam van het objecttype  | GGM-naam | import: wordt overgenomen als name  |
+| GGM-definitie | samenvattende omschrijving van de kenmerken van het object | GGM-definitie  | import: wordt overgenomen in documentation |
+| GGM-uml-type  | Het in het GGM UML model gebruikt type, zoals class of enumeration | GGM-uml-type | import: wordt overgenomen in *GGM-uml-type* |
+| GGM-toelichting  | Aanvullende toelichting op de definitie | GGM-toelichting | import: indien deze nog niet bestaat of gelijk is aan de huidige waarde, dan overnemen in *toelichting*, anders overnemen in  *GGM-toelichting* |
+| GGM-synoniemen | Alternatieve naam met min of meer dezelfde betekenis (meerdere mogelijk, comma separated)  | GGM-synoniemen | import: indien deze nog niet bestaat of gelijk is aan de huidige waarde, dan overnemen in *synoniemen*, anders overnemen in  *GGM-synoniemen* |
+| GGM-guid | Uniek en niet wijzigend id van het object  | GGM-guid | import: wordt overgenomen in *GGM-guid*  |
+| GGM-bron | Extern informatiemodel waaruit GGM de definities heeft overgenomen | bron  | import: wordt overgenomen in *bron* |
+| domein-iv3 | Op Iv3 gebaseerde beleidsdomeinen. Dit zijn de Iv3 taakvelden plus extras om alle objecttypen te kunnen indelen | | import: wordt overgenomen als relatie met grouping beleidsdomein. <br>export: de beleidsdomeinen worden in de GEMMA exportbestanden niet teruggeleverd |
+| domein-dcat | Data Catalog Vocabulary (DCAT) is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. | | import: nu altijd leeg, nog bepalen of dit een relatie met een grouping wordt of een property <br>export: de beleidsdomeinen worden in de GEMMA exportbestanden niet teruggeleverd |
+| GEMMA-naam | Naam van het bedrijfsobject in het GEMMA-GGM ArchiMate-model | name  | export: de *GEMMA-naam* kan anders zijn dan de oorspronkelijke GGM-naam. <ul><li>Als de naam gewijzigd is, dan wordt ook de *GGM-GUID* teruggeleverd.</li><li>Als het een nieuw object is, dan worden alleen de GEMMA gegevens geleverd (bijvoorbeeld als meerdere GGM objecttypen zijn samengevoegd tot één bedrijfsobject)</li></ul>|
+| GEMMA-definitie  | Definitie van het bedrijfsobject  | documentation  | export: gelijk aan omgang met *GEMMA-naam*  |
+| GEMMA-toelichting | Aanvullende toelichting op de definitie | toelichting | export: gelijk aan omgang met *GEMMA-naam*  |
+| GEMMA-synoniemen | Alternatieve naam met min of meer dezelfde betekenis (meerdere mogelijk, comma separated)  | synoniemen  | export: gelijk aan omgang met *GEMMA-naam*  |
+| GEMMA-bron | Extern informatiemodel waaruit GGM de definities heeft overgenomen | bron  | export: gelijk aan omgang met *GEMMA-naam*  |
+| GEMMA-url  | URL naar object op GEMMA online | GEMMA URL | export: door GEMMA beheerd gegeven  |
+| GEMMA-alternate-name | GGM staat duplicate namen toe. De alternate name is uniek gemaakt door het iv-3 taakveld achter de naam te zetten  | alternate name | export: door GEMMA beheerd gegeven  |
+| GEMMA-guid | Uniek id beheerd door GEMMA | Object ID | export: door GEMMA beheerd gegeven  |
+| GEMMA-type | ArchiMate type, altijd business-object  | type  | export: door GEMMA beheerd gegeven  |
+| datum-tijd-export | Datum en tijdstip waarop het exportbestand is gemaakt (ddmmyyyy-hh:mm:ss) | | import: overgenomen als *GGM-datum-tijd-export*<br/>export: aangemaakt door exportscript |
 
+#### Relaties
 
-#### GEMMA\_Bedrijfsobjecten_element.csv
+Het GEMMA relatie exportbestand bevatten de relaties tussen de bedrijfsobjecten. De relaties met de beleidsdomeinen worden niet geëxporteerd.
 
-| Kolom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Eigenschap van GEMMA bedrijfsobject | Betekenis |
-|:---|:---|:---|
-| gemma-naam | name |  Naam van het bedrijfsobject in het GGM ArchiMate-model|
-| gemma-definitie | documentation | Definitie van het bedrijfsobject |
-| gemma-type | type | ArchiMate type, altijd business-object |
-| gemma-toelichting | toelichting | Aanvullende toelichting op de definitie |
-| gemma-alternate-name | alternate name | GGM staat duplicate namen toe. De alternate name is uniek gemaakt door het iv-3 taakveld achter de naam te zetten |
-| gemma-synoniemen | synoniemen | Alternatieve naam met min of meer dezelfde betekenis (meerdere mogelijk, comma separated) |
-| gemma-url | GEMMA URL | URL naar object op GEMMA online |
-| gemma-guid | Object ID | Uniek id beheerd door GEMMA |
-| gemma-datum-tijd-export | - | Datum en tijdstip waarop het exportbestand is gemaakt |
-| ggm-guid | ggm-guid | Id van het door GGM beheerde object. |
-| ggm-naam | ggm-naam| GGM naam van bedrijfsobject. Heeft alleen een waarde als deze anders is dan de GEMMA naam |
-| ggm-definitie | ggm-definitie | GGM definitie van het bedrijfsobject. Heeft alleen een waarde als deze anders is dan de GEMMA definitie |
-| ggm-uml-type |  ggm-uml-type | UML type van het GGM object |
-| ggm-datum-tijd-export | ggm-datum-tijd-export | Datum en tijdstip van laatste GGM export waarmee het bedrijfsobject is bijgewerkt |
-| ggm-synoniemen | ggm-synoniemen | GGM synoniemen van het bedrijfsobject. Heeft alleen een waarde als deze anders is dan de GEMMA synoniemen |
-| bron | bron | Extern informatiemodel waaruit GGM de definities heeft overgenomen |
-
-#### GEMMA\_Bedrijfsobjecten_relatie.csv
-
-| Kolom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Eigenschap van GEMMA relatie | Betekenis |
-| :--- | :--- | :--- |
-| gemma-naam   | name | label van de relatie |
-| gemma-definitie    | documentation | definitie van de relatie, eigenlijk altijd leeg |
-| gemma-type   | type | ArchiMate relatietype (association of specialization-relationship) |
-| gemma-guid  | Object ID | Uniek id van de relatie beheerd door GEMMA |
-| gemma-source-guid | source.prop.Object ID | uniek id van object waar relatie vandaan komt |
-| gemma-target-guid | target.prop.Object ID | uniek id van object waar relatie binnenkomt |
-| gemma-datum-tijd-export | - | Datum en tijdstip waarop het exportbestand is gemaakt |
-| ggm-guid | ggm-guid | Id van het door GGM beheerde object. |
-| ggm-naam | ggm-naam| GGM label van de relatie. Heeft alleen een waarde als deze anders is dan het GEMMA label |
-| ggm-definitie | ggm-definitie | GGM definitie van de relatie. Heeft alleen een waarde als deze anders is dan de GEMMA definitie |
-| ggm-uml-type |  ggm-uml-type | UML type van de relatie|
-| ggm-datum-tijd-export | ggm-datum-tijd-export | Datum en tijdstip van laatste GGM export waarmee de relaties is bijgewerkt |
+| Kolom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Betekenis | Eigenschap van GEMMA relatie  | Toelichting geschreven vanuit GEMMA import- of exportproces  |
+| :--- | :--- | :--- | :--- |
+| nr | regelnummer in CSV bestand  | | import: Voor iedere regel wordt een relatie tussen 2 data-objecten aangemaakt. Het Archimate type relatie wordt afgeleid van het uml-type. Het regelnummer wordt niet opgenomen in het model |
+| GGM-naam | label van de relatie  | name of GGM-naam  | import: indien deze nog niet bestaat of gelijk is aan de huidige waarde, dan overnemen in name, anders overnemen in GGM-naam |
+| GGM-definitie  | samenvattende omschrijving van de kenmerken van de relatie  | documentation of GGM-definition | import: indien deze nog niet bestaat of gelijk is aan de huidige waarde, dan overnemen in documentation, anders overnemen in GGM-definitie |
+| GGM-toelichting  | Aanvullende toelichting op de definitie | toelichting of GGM-toelichting  | import: indien deze nog niet bestaat of gelijk is aan de huidige waarde, dan overnemen in toelichting, anders overnemen in *GGM-toelichting* |
+| GGM-uml-type | UML type van de relatie | GGM-uml-type  | import: wordt gebruikt voor bepalen ArchiMate type en wordt overgenomen in *GGM-uml-type*  |
+| GGM-guid | Unieke en niet wijzigend id van de relatie  | GGM-guid  | import: wordt overgenomen in *GGM-guid*  |
+| GGM-source-guid  | Id van het object waar de relatie vandaan komt  | | import: wordt gebruikt voor aanmaken relatie met juiste data-object  |
+| GGM-target-guid  | Id van het object waar de relatie naar toe wijst  | | import: wordt gebruikt voor aanmaken relatie met juiste data-object  |
+| GEMMA-naam | label van de relatie  | name  | export: de *GEMMA-naam* kan anders zijn dan de oorspronkelijke GGM-naam. <ul><li>Als de naam gewijzigd is, dan wordt ook de *GGM-GUID* teruggeleverd.</li><li>Als het een nieuw object is, dan worden alleen de GEMMA gegevens geleverd (bijvoorbeeld als meerdere GGM objecttypen zijn samengevoegd tot één bedrijfsobject)</li></ul> |
+| GEMMA-definitie  | definitie van de relatie, eigenlijk altijd leeg | documentation | export: gelijk aan omgang met *GEMMA-naam* |
+| GEMMA-toelichting  | Aanvullende toelichting op de definitie | toelichting | export: gelijk aan omgang met *GEMMA-naam* |
+| GEMMA-type | ArchiMate relatietype (association of specialization-relationship)  | type  | export: door GEMMA beheerd gegeven |
+| GEMMA-guid | Uniek id van de relatie beheerd door GEMMA  | Object ID | export: door GEMMA beheerd gegeven |
+| GEMMA-source-guid  | uniek id van object waar relatie vandaan komt | source.prop.Object ID | export: door GEMMA beheerd gegeven |
+| GEMMA-target-guid  | uniek id van object waar relatie binnenkomt | target.prop.Object ID | export: door GEMMA beheerd gegeven |
+| datum-tijd-export  | Datum en tijdstip waarop het exportbestand is gemaakt (ddmmyyyy-hh:mm:ss) | | import: overgenomen als *GGM-datum-tijd-export*<br/>export: aangemaakt door exportscript |
