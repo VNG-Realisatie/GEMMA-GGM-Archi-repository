@@ -512,7 +512,7 @@
           value="false"/>
       <features
           name="labelExpression"
-          value="${name}&#xA;(${property:uml-type})"/>
+          value="${name}&#xA;&lt;&lt;${property:GGM-uml-type}>>"/>
       <bounds
           x="315"
           y="430"
@@ -638,9 +638,9 @@
       key="Architectuurlaag"
       value="Applicatiearchitectuur"/>
   <properties
-      key="domein-iv3"
-      value="Monumenten "/>
-  <properties
       key="Object ID"
       value="6be121b8-59fc-4090-8d70-3b3effcb7c41"/>
+  <properties
+      key="Beleidsdomein"
+      value="Monumenten"/>
 </archimate:ArchimateDiagramModel>

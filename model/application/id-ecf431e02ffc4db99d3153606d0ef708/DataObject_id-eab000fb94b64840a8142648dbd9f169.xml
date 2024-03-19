@@ -4,21 +4,24 @@
     id="id-eab000fb94b64840a8142648dbd9f169"
     documentation="De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.&#xA;&lt;i>Toelichting&lt;/i>&#xA;Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype.&#xA;&lt;i>Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’.&lt;/i>">
   <properties
-      key="Imported-GGM-guid"
+      key="GGM-guid-imported"
       value="{0CF1C34D-8AD5-4ac5-8538-87252E66A8C8}"/>
   <properties
       key="Latest Sync Date"
-      value="29/11/2023 12:15:17"/>
+      value="19/03/2024 11:14:10"/>
   <properties
-      key="UML-type"
+      key="GGM-uml-type"
       value="Class"/>
   <properties
       key="ArchiMate-type"
       value="Data object"/>
   <properties
       key="Datum-tijd-export"
-      value="06112023-07:59:13"/>
+      value="21022024-11:03:02"/>
   <properties
       key="Object ID"
       value="7c7b3f65-63b5-4e0e-8a09-e33bc6ede40d"/>
+  <properties
+      key="GGM-toelichting"
+      value="Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype."/>
 </archimate:DataObject>

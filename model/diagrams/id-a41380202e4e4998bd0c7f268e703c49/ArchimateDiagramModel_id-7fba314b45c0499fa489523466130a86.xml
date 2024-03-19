@@ -5,7 +5,7 @@
     id="id-7fba314b45c0499fa489523466130a86">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-477bdbd371e248d88d7621504ed87be3"
+      id="id-7512b5991b97458cb0801d930a2b43c4"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,9 +14,9 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-c2016fe698c944dda35c85fe70f511da"
-        source="id-477bdbd371e248d88d7621504ed87be3"
-        target="id-403022b4676f488883de5a5fa8a9aa0e">
+        id="id-c6289fe63fdc483489554627762a07a9"
+        source="id-7512b5991b97458cb0801d930a2b43c4"
+        target="id-df28fe512c804798bded48e86a6aba73">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-03f9fa4618044f17a118fb3886a0e0d8.xml#id-03f9fa4618044f17a118fb3886a0e0d8"/>
@@ -28,8 +28,8 @@
         height="101"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-403022b4676f488883de5a5fa8a9aa0e"
-        targetConnections="id-c2016fe698c944dda35c85fe70f511da">
+        id="id-df28fe512c804798bded48e86a6aba73"
+        targetConnections="id-c6289fe63fdc483489554627762a07a9">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -62,9 +62,9 @@
       key="Architectuurlaag"
       value="Applicatiearchitectuur"/>
   <properties
-      key="domein-iv3"
-      value="Relatieklasse"/>
-  <properties
       key="Object ID"
       value="dda9ca40-72fa-41c3-934d-f4c6fd5c043f"/>
+  <properties
+      key="Beleidsdomein"
+      value="Relatieklasse"/>
 </archimate:ArchimateDiagramModel>
