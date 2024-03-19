@@ -5,7 +5,7 @@
     id="id-7fba314b45c0499fa489523466130a86">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-7512b5991b97458cb0801d930a2b43c4"
+      id="id-633195d39ac3496991d3a181742c2819"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,9 +14,9 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-c6289fe63fdc483489554627762a07a9"
-        source="id-7512b5991b97458cb0801d930a2b43c4"
-        target="id-df28fe512c804798bded48e86a6aba73">
+        id="id-821709b75faa43b2ae31964c9a6adb39"
+        source="id-633195d39ac3496991d3a181742c2819"
+        target="id-9391d3074b5b46e390a2852ad13b90dd">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-03f9fa4618044f17a118fb3886a0e0d8.xml#id-03f9fa4618044f17a118fb3886a0e0d8"/>
@@ -24,19 +24,19 @@
     <bounds
         x="10"
         y="10"
-        width="191"
+        width="211"
         height="101"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-df28fe512c804798bded48e86a6aba73"
-        targetConnections="id-c6289fe63fdc483489554627762a07a9">
+        id="id-9391d3074b5b46e390a2852ad13b90dd"
+        targetConnections="id-821709b75faa43b2ae31964c9a6adb39">
       <features
           name="deriveElementLineColor"
           value="false"/>
       <bounds
           x="25"
           y="30"
-          width="141"
+          width="161"
           height="61"/>
       <archimateElement
           xsi:type="archimate:DataObject"
@@ -64,6 +64,12 @@
   <properties
       key="Object ID"
       value="dda9ca40-72fa-41c3-934d-f4c6fd5c043f"/>
+  <properties
+      key="GEMMA thema"
+      value="Data"/>
+  <properties
+      key="GEMMA URL"
+      value="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-dda9ca40-72fa-41c3-934d-f4c6fd5c043f"/>
   <properties
       key="Beleidsdomein"
       value="Relatieklasse"/>

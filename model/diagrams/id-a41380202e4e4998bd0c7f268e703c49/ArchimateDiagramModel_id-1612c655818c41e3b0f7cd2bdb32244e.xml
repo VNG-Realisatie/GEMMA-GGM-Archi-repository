@@ -5,7 +5,7 @@
     id="id-1612c655818c41e3b0f7cd2bdb32244e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-947986c851bc48c2ad18dd0b77dc2068"
+      id="id-b88c8fd26b5945d988b90d9cb3f210b8"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,9 +14,9 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-864bb6c9a64a40d6b37e0cd73e505581"
-        source="id-947986c851bc48c2ad18dd0b77dc2068"
-        target="id-65f67f3e76074a25a2fdcb3cce67929e">
+        id="id-ebd2176a1a2f4811a14991ed0adbbc45"
+        source="id-b88c8fd26b5945d988b90d9cb3f210b8"
+        target="id-d4d7c98ba8f34ec0a562ce6aaa3d785b">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-415cc77bdb59442c9fde5fd44e62478c.xml#id-415cc77bdb59442c9fde5fd44e62478c"/>
@@ -24,12 +24,12 @@
     <bounds
         x="10"
         y="10"
-        width="191"
+        width="211"
         height="101"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-65f67f3e76074a25a2fdcb3cce67929e"
-        targetConnections="id-864bb6c9a64a40d6b37e0cd73e505581"
+        id="id-d4d7c98ba8f34ec0a562ce6aaa3d785b"
+        targetConnections="id-ebd2176a1a2f4811a14991ed0adbbc45"
         fillColor="#FFFFCC"
         alpha="200">
       <features
@@ -40,29 +40,29 @@
           value="1"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-8f3c1dd7d5b248d09dcb446113de6e66"
-          source="id-65f67f3e76074a25a2fdcb3cce67929e"
-          target="id-bdbefdc6f759492a9c298bd9bdb8a510">
+          id="id-1323a94561014ccc98eba054838bdd59"
+          source="id-d4d7c98ba8f34ec0a562ce6aaa3d785b"
+          target="id-46bf7bdec81d4445bdbe4862f6777979">
         <bendpoints
-            startX="95"
+            startX="105"
             startY="-10"
-            endX="-195"/>
+            endX="-205"/>
         <bendpoints
-            startX="120"
+            startX="130"
             startY="-10"
-            endX="-170"/>
+            endX="-180"/>
         <bendpoints
-            startX="145"
+            startX="155"
             startY="-10"
-            endX="-145"/>
+            endX="-155"/>
         <bendpoints
-            startX="170"
+            startX="180"
             startY="-10"
-            endX="-120"/>
+            endX="-130"/>
         <bendpoints
-            startX="195"
+            startX="205"
             startY="-10"
-            endX="-95"/>
+            endX="-105"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-bc41e1f0b4af42bd8e4a1f95ee7b4d49.xml#id-bc41e1f0b4af42bd8e4a1f95ee7b4d49"/>
@@ -70,7 +70,7 @@
       <bounds
           x="25"
           y="30"
-          width="141"
+          width="161"
           height="61"/>
       <archimateElement
           xsi:type="archimate:DataObject"
@@ -82,8 +82,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-bdbefdc6f759492a9c298bd9bdb8a510"
-      targetConnections="id-8f3c1dd7d5b248d09dcb446113de6e66"
+      id="id-46bf7bdec81d4445bdbe4862f6777979"
+      targetConnections="id-1323a94561014ccc98eba054838bdd59"
       fillColor="#FFFFCC"
       alpha="200">
     <features
@@ -96,9 +96,9 @@
         name="labelExpression"
         value="${name}&#xA;($aggregation:source{name})"/>
     <bounds
-        x="325"
+        x="345"
         y="30"
-        width="141"
+        width="161"
         height="61"/>
     <archimateElement
         xsi:type="archimate:DataObject"
@@ -122,6 +122,12 @@
   <properties
       key="Object ID"
       value="574f635d-d4f9-4bc7-a2c3-4c7d7db24eeb"/>
+  <properties
+      key="GEMMA thema"
+      value="Data"/>
+  <properties
+      key="GEMMA URL"
+      value="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-574f635d-d4f9-4bc7-a2c3-4c7d7db24eeb"/>
   <properties
       key="Beleidsdomein"
       value="Gemeentebegrafenissen"/>
