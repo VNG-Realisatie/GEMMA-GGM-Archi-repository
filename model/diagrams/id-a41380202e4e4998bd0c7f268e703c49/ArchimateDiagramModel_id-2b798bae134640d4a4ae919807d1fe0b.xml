@@ -1227,42 +1227,6 @@
       <features
           name="deriveElementLineColor"
           value="false"/>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-0b580abac9bf4fa48c4d8e6efeabdd96"
-          lineWidth="2"
-          lineColor="#5dade2"
-          source="id-0d120df3312e4e54b4ce56fcabe26ffc"
-          target="id-3cbcf78d40ff490984af1e47afb25923">
-        <bendpoints
-            startX="-105"
-            startY="-10"
-            endX="205"
-            endY="-1185"/>
-        <bendpoints
-            startX="-130"
-            startY="-10"
-            endX="180"
-            endY="-1185"/>
-        <bendpoints
-            startX="-155"
-            startY="-10"
-            endX="155"
-            endY="-1185"/>
-        <bendpoints
-            startX="-180"
-            startY="-10"
-            endX="130"
-            endY="-1185"/>
-        <bendpoints
-            startX="-205"
-            startY="-10"
-            endX="105"
-            endY="-1185"/>
-        <archimateRelationship
-            xsi:type="archimate:SpecializationRelationship"
-            href="SpecializationRelationship_id-39ce5fbf483340f08d9b2bd9aabe8638.xml#id-39ce5fbf483340f08d9b2bd9aabe8638"/>
-      </sourceConnections>
       <bounds
           x="1575"
           y="425"
@@ -1515,30 +1479,6 @@
     <archimateElement
         xsi:type="archimate:DataObject"
         href="DataObject_id-b151887af60246ed914b339f2f0e067f.xml#id-b151887af60246ed914b339f2f0e067f"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3cbcf78d40ff490984af1e47afb25923"
-      targetConnections="id-0b580abac9bf4fa48c4d8e6efeabdd96"
-      fillColor="#FFFFCC"
-      alpha="200">
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
-    <features
-        name="gradient"
-        value="1"/>
-    <features
-        name="labelExpression"
-        value="${name}&#xA;($aggregation:source{name})"/>
-    <bounds
-        x="1275"
-        y="1690"
-        width="161"
-        height="61"/>
-    <archimateElement
-        xsi:type="archimate:DataObject"
-        href="DataObject_id-51e83987cf0340d9b537d0f449459003.xml#id-51e83987cf0340d9b537d0f449459003"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
