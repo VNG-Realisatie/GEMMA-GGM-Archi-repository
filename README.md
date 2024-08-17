@@ -1,6 +1,6 @@
 # GEMMA-GGM Archi-repository
 
-Het GEMMA-GGM ArchiMate-model wordt gebruikt voor het inlezen van het GGM informatiemodel. Vervolgens worden in dit model de GEMMA bedrijfsobjectmodellen afgeleid en onderhouden. Een deel van dit model wordt ingelezen in het GEMMA model. Op GEMMA online worden de  op [GEMMA bedrijfsobjecten](https://www.gemmaonline.nl/index.php/Bedrijfsobjecten) gepubliceerd.
+Het GEMMA-GGM ArchiMate-model wordt gebruikt voor het inlezen van het GGM informatiemodel. Vervolgens worden in dit model de GEMMA bedrijfsobjectmodellen afgeleid en onderhouden. Een deel van dit model wordt ingelezen in het GEMMA model. Op GEMMA online worden de op [GEMMA bedrijfsobjecten](https://www.gemmaonline.nl/index.php/Bedrijfsobjecten) gepubliceerd.
 
 ## GGM versie
 
