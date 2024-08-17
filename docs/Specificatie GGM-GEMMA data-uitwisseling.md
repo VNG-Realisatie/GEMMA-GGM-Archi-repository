@@ -13,13 +13,13 @@ De uitwisseling is gemaakt met CSV-bestanden. De samenstelling van de CSV-bestan
 
 ### CSV-bestanden
 
-De GGM exportbestanden worden beschikbaar gesteld in de [GGM repository (GitHub)](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel).
+De GGM exportbestanden worden op GitHub beschikbaar gesteld in de [GGM repository](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel).
 
 * ggm_export_objects_&lt;datum-tijd&gt;.csv
 * ggm_export_relations_&lt;datum-tijd&gt;.csv
 
 
-In deze repository worden de [GEMMA CSV bestanden](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/exports) gemaakt en beschikbaar gesteld.
+In de [exports](exports) folder van deze repository worden de GEMMA CSV bestanden beschikbaar gesteld.
 
 * GEMMA\_Bedrijfsobjecten_element.csv
 * GEMMA\_Bedrijfsobjecten_relatie.csv
