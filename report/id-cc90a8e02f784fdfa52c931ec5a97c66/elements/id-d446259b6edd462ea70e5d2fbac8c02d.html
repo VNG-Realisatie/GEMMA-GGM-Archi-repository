@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Bouwdeel</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Bouwdeel</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DataObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DataObject" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit &#233;&#233;n of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>GGM-guid-imported</td><td class="convertlinks no-margin" style="white-space:pre-wrap">{9A739672-6084-4c05-A13E-59DB13551E58}</td></tr><tr><td>Latest Sync Date</td><td class="convertlinks no-margin" style="white-space:pre-wrap">14/08/2024 17:25:32</td></tr><tr><td>GGM-uml-type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Class</td></tr><tr><td>ArchiMate-type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Data object</td></tr><tr><td>Datum-tijd-export</td><td class="convertlinks no-margin" style="white-space:pre-wrap">14082024-08:34:36</td></tr><tr><td>Object ID</td><td class="convertlinks no-margin" style="white-space:pre-wrap">be0c4ab2-d4ae-447f-ba5f-939b186e5f04</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-32a854925748406a94ffbdc87042dbb0">
+																	<td><a href="../views/id-32a854925748406a94ffbdc87042dbb0.html" target="view" title="Vastgoed (GGM)"> Vastgoed (GGM) </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-3f5ff8da1ec244caa32140dfafe867f2.html" target="element" title="bestaat uit">bestaat uit</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-d446259b6edd462ea70e5d2fbac8c02d.html" target="element"> Bouwdeel</a></td>
+											<td><a href="../elements/id-01e880549bd34dbc80035b825bb72e8b.html" target="element"> Bouwdeelelement</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-e6b7018e168d4987ab84fde06e4d9df4.html" target="element" title="betreft">betreft</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-76f90d50b778483b90d250121159ec9b.html" target="element"> MJOPItem</a></td>
+											<td><a href="../elements/id-d446259b6edd462ea70e5d2fbac8c02d.html" target="element"> Bouwdeel</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2687164693994c52adc909df91debe25.html" target="element" title="betreft">betreft</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-cb486b172efd45909a6466e67ad8d822.html" target="element"> Werkbon</a></td>
+											<td><a href="../elements/id-d446259b6edd462ea70e5d2fbac8c02d.html" target="element"> Bouwdeel</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-cdc10b3c2b72462a9a18e11c44f7d6d0.html" target="element" title="bestaat uit">bestaat uit</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-8809fbf6c5034069909e9e79841ec161.html" target="element"> Vastgoedobject</a></td>
+											<td><a href="../elements/id-d446259b6edd462ea70e5d2fbac8c02d.html" target="element"> Bouwdeel</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-38d36dfc3976498ab601d863c8cad881.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-1a905266926c4b84b29f0a01125d92c4.html" target="element"> Vastgoed</a></td>
+											<td><a href="../elements/id-d446259b6edd462ea70e5d2fbac8c02d.html" target="element"> Bouwdeel</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

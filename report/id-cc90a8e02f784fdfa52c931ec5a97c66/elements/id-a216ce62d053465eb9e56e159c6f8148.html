@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Opdrachtgever</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Opdrachtgever</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DataObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DataObject" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Persoon die een opdracht verstrekt.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>GGM-guid-imported</td><td class="convertlinks no-margin" style="white-space:pre-wrap">{C2520FC3-622B-4edf-B911-C661B0D710FE}</td></tr><tr><td>Latest Sync Date</td><td class="convertlinks no-margin" style="white-space:pre-wrap">14/08/2024 17:25:32</td></tr><tr><td>GGM-uml-type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Class</td></tr><tr><td>ArchiMate-type</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Business object</td></tr><tr><td>Datum-tijd-export</td><td class="convertlinks no-margin" style="white-space:pre-wrap">14082024-08:34:36</td></tr><tr><td>Object ID</td><td class="convertlinks no-margin" style="white-space:pre-wrap">3207807d-115e-4cb1-82e0-b19cbe4dcf6a</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-a03f8f28b198441aade3f96ca0cde6d0">
+																	<td><a href="../views/id-a03f8f28b198441aade3f96ca0cde6d0.html" target="view" title="Financien (GGM)"> Financien (GGM) </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-cbbc677077c9477895460061913676d4">
+																	<td><a href="../views/id-cbbc677077c9477895460061913676d4.html" target="view" title="HR (GGM)"> HR (GGM) </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-cf9298984c864e6299e58ce0728ad491.html" target="element" title="realiseert bedrijfsobject">realiseert bedrijfsobject</a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-a216ce62d053465eb9e56e159c6f8148.html" target="element"> Opdrachtgever</a></td>
+											<td><a href="../elements/id-50910acfd5c84c888ecf53af5a40f222.html" target="element"> Opdrachtgever</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b77cc231833d441f994eab16f668c3d3.html" target="element" title="is opdrachtgever">is opdrachtgever</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-a216ce62d053465eb9e56e159c6f8148.html" target="element"> Opdrachtgever</a></td>
+											<td><a href="../elements/id-21d7fbcd40fc4a8fbae71c1f100d607e.html" target="element"> Product</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-dcf56fcd56e74325ae4ee8d65425cc1f.html" target="element" title="uitgevoerd door">uitgevoerd door</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-a216ce62d053465eb9e56e159c6f8148.html" target="element"> Opdrachtgever</a></td>
+											<td><a href="../elements/id-d125d64e2a9346eab6d4b3d84a359c4e.html" target="element"> Functie</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-e2870503639c4612a1bddf15f2289934.html" target="element" title="is opdrachtgever">is opdrachtgever</a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0065c53bef424ceda5728e536cefd0c0.html" target="element"> Doelstelling</a></td>
+											<td><a href="../elements/id-a216ce62d053465eb9e56e159c6f8148.html" target="element"> Opdrachtgever</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ad94fbb3e62d4b2d8a7c0229dccc1bc2.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-b42b5d1adf334017843d5fb604239370.html" target="element"> Financien</a></td>
+											<td><a href="../elements/id-a216ce62d053465eb9e56e159c6f8148.html" target="element"> Opdrachtgever</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

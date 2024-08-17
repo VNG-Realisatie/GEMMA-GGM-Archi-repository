@@ -1,0 +1,75 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Start"
+    id="id-e773ff7df4634d1dbb55dc79f447ecbb">
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-1f287d5ccb254a72b26a44385b265b58"
+      name="Welkom in het GEMMA GGM model"
+      font="1|Segoe UI|12.0|1|WINDOWS|1|-20|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fillColor="#ffffff"
+      borderType="1">
+    <features
+        name="deriveElementLineColor"
+        value="false"/>
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="20"
+        y="10"
+        width="721"
+        height="271"/>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-82d0065571474e6c98387875cad8bdb4">
+      <features
+          name="deriveElementLineColor"
+          value="false"/>
+      <bounds
+          x="40"
+          y="180"
+          width="291"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-a6ee6077d3094afa91fc6ea92a9a2a40.xml#id-a6ee6077d3094afa91fc6ea92a9a2a40"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-f9d410d8887442d587879f72782295dc">
+      <features
+          name="deriveElementLineColor"
+          value="false"/>
+      <bounds
+          x="380"
+          y="180"
+          width="291"
+          height="55"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-4d2f6e90d6c54440bd2b943cfa6278e8.xml#id-4d2f6e90d6c54440bd2b943cfa6278e8"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="id-61dd6217512f4a09aaa985cf768f8324"
+        font="1|Segoe UI|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
+        textAlignment="1"
+        fillColor="#ffffff"
+        content="Voor ieder beleidsdomein wordt er een view gegenereerd van de GGM objecttypen en de GEMMA bedrijfsobjecten.&#xD;&#xA;&#xD;&#xA;Klik op de onderstaande links voor toegang tot de GEMMA en GGM views geplot op de iv3 indeling."
+        borderType="1">
+      <features
+          name="deriveElementLineColor"
+          value="false"/>
+      <features
+          name="lineAlpha"
+          value="0"/>
+      <bounds
+          x="40"
+          y="50"
+          width="631"
+          height="101"/>
+    </children>
+  </children>
+</archimate:ArchimateDiagramModel>

@@ -5,7 +5,7 @@
     id="id-d8d6f858ae714a39a9185b642808f2fd">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-973b7299810d42d9aa2d5adf40d3a4b8"
+      id="id-d67591ff984340aebdafef68cf708b34"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,9 +14,9 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-11798d13e98b4622a4688b0408453578"
-        source="id-973b7299810d42d9aa2d5adf40d3a4b8"
-        target="id-a9f562236fb94572b9c305fe833507ee">
+        id="id-0e584b5e767d44259b9b1c7ffc870cd7"
+        source="id-d67591ff984340aebdafef68cf708b34"
+        target="id-f8beeed120ae437fb6b2dcdc2164c83a">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-4737911ca0334151bdf414894b3d0079.xml#id-4737911ca0334151bdf414894b3d0079"/>
@@ -28,8 +28,8 @@
         height="101"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-a9f562236fb94572b9c305fe833507ee"
-        targetConnections="id-11798d13e98b4622a4688b0408453578"
+        id="id-f8beeed120ae437fb6b2dcdc2164c83a"
+        targetConnections="id-0e584b5e767d44259b9b1c7ffc870cd7"
         textPosition="1">
       <features
           name="deriveElementLineColor"
