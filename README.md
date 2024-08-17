@@ -16,7 +16,7 @@ Voor ieder Beleidsdomein wordt er een view gegenereerd van de GGM objecttypen en
 
 In de [exports](exports) folder worden de GEMMA bedrijfsobjectmodellen beschikbaar gesteld in twee formaten:
 - [AMEFF export](exports/GEMMA-GGM%20AMEFF.xml) voor het importeren van het bestand in een compatible architectuurtool
-- CSV-bestanden met daarin de bedrijfsobjecten en relaties. Zie verder de [Specificatie GGM-GEMMA data-uitwisseling](docs/Specificatie%20GGM-GEMMA%20data-uitwisseling.md)
+- CSV-bestanden met daarin de bedrijfsobjecten en relaties. Zie verder de [Specificatie GGM-GEMMA data-uitwisseling](exports/Specificatie%20GGM-GEMMA%20data-uitwisseling.md)
 
 ## Licentie
 
