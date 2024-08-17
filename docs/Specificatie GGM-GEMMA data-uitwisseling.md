@@ -3,26 +3,22 @@
 De GGM objecttypen en relaties worden aangeleverd aan de GEMMA. De GEMMA importeert deze en leidt haar bedrijfsobjectmodellen hiervan af. De GEMMA bedrijfsobjecten worden weer teruggeleverd aan GGM. De GGM kan besluiten de definities van de GEMMA bedrijfsobjecten over te nemen.
 
 De uitwisseling is gemaakt met CSV-bestanden. De samenstelling van de CSV-bestanden is hieronder gespecificeerd
-
 - kolommen met de prefix ' GGM-' worden beheerd door GGM-community
 - kolommen met de prefix 'GEMMA-' worden beheerd door VNGR
 - Als start neemt GEMMA de GGM definities over en baseert hier de bedrijfsobjecten op
-- de GEMMA bedrijfsobjecten kunnen gaan afwijken van de GGM definities. 
-  - De definities die verschillen kennen dan zowel een ' GGM-' als een 'GEMMA-' waarde.
-  - er kunnen nieuwe GEMMA bedrijfsobjecten bijkomen. Deze hebben dan geen GGM-guid 
+- de GEMMA bedrijfsobjecten kunnen gaan afwijken van de GGM definities
+  - De definities die verschillen kennen dan zowel een ' GGM-' als een 'GEMMA-' waarde
+  - er kunnen nieuwe GEMMA bedrijfsobjecten bijkomen. Deze hebben dan geen GGM-guid.
 
 ### CSV-bestanden
 
 De GGM exportbestanden worden op GitHub beschikbaar gesteld in de [GGM repository](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel).
+- ggm_export_objects_&lt;datum-tijd&gt;.csv
+- ggm_export_relations_&lt;datum-tijd&gt;.csv
 
-* ggm_export_objects_&lt;datum-tijd&gt;.csv
-* ggm_export_relations_&lt;datum-tijd&gt;.csv
-
-
-In de [exports](exports) folder van deze repository worden de GEMMA CSV bestanden beschikbaar gesteld.
-
-* GEMMA\_Bedrijfsobjecten_element.csv
-* GEMMA\_Bedrijfsobjecten_relatie.csv
+In de [exports](../exports) folder van deze repository worden de GEMMA CSV bestanden beschikbaar gesteld.
+- GEMMA\_Bedrijfsobjecten_element.csv
+- GEMMA\_Bedrijfsobjecten_relatie.csv
 
 ### Inhoud CSV-bestanden
 
