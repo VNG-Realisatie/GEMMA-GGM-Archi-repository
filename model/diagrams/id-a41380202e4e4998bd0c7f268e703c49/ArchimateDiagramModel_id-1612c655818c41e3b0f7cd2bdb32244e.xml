@@ -5,7 +5,7 @@
     id="id-1612c655818c41e3b0f7cd2bdb32244e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-d9482dcb2c0248d088bd1091b22a1a96"
+      id="id-b621bc735d564ebcad6d1a7d8eaa6437"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,9 +14,9 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-b5fa58e6c67d4a6689259c3c675c5549"
-        source="id-d9482dcb2c0248d088bd1091b22a1a96"
-        target="id-5c3a525649f4467296affdcbd2c2be55">
+        id="id-8a5d55656f7e4078aa682ef42412fe93"
+        source="id-b621bc735d564ebcad6d1a7d8eaa6437"
+        target="id-092f4eca008c40ebb80a3488f8a986de">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-415cc77bdb59442c9fde5fd44e62478c.xml#id-415cc77bdb59442c9fde5fd44e62478c"/>
@@ -28,8 +28,8 @@
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-5c3a525649f4467296affdcbd2c2be55"
-        targetConnections="id-b5fa58e6c67d4a6689259c3c675c5549"
+        id="id-092f4eca008c40ebb80a3488f8a986de"
+        targetConnections="id-8a5d55656f7e4078aa682ef42412fe93"
         fillColor="#FFFFCC"
         alpha="200"
         textPosition="1">
@@ -41,9 +41,9 @@
           value="1"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-9bb50aa6ce2447b3a5f574a7de3a1d01"
-          source="id-5c3a525649f4467296affdcbd2c2be55"
-          target="id-870c23f6ce464eae8e7ffb6a0c272689">
+          id="id-60d4f60ba2484ec9b715576ee5f6515b"
+          source="id-092f4eca008c40ebb80a3488f8a986de"
+          target="id-9336a1105a95465983be3dc1a9ded93e">
         <bendpoints
             startX="140"
             startY="-10"
@@ -71,8 +71,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-870c23f6ce464eae8e7ffb6a0c272689"
-      targetConnections="id-9bb50aa6ce2447b3a5f574a7de3a1d01"
+      id="id-9336a1105a95465983be3dc1a9ded93e"
+      targetConnections="id-60d4f60ba2484ec9b715576ee5f6515b"
       fillColor="#FFFFCC"
       alpha="200"
       textPosition="1">

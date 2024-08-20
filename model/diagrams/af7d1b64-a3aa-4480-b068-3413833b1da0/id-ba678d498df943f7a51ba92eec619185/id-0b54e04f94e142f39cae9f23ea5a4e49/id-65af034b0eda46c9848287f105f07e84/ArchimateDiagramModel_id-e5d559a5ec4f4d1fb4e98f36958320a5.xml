@@ -5,7 +5,7 @@
     id="id-e5d559a5ec4f4d1fb4e98f36958320a5">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3477fd1a0a72411ca066c56ee31e0529"
+      id="id-74e5693f4d6944338097cec3d356a6ec"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,9 +14,9 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a97a42c91d7c44aead5bc200883ac70b"
-        source="id-3477fd1a0a72411ca066c56ee31e0529"
-        target="id-8b6286e608be43e8aff14fb70016560e">
+        id="id-2a375671c7654e2bb318035cd1daf90b"
+        source="id-74e5693f4d6944338097cec3d356a6ec"
+        target="id-dacd1bc6cafb476ca68c2d41a2dcb4ac">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-010a5ff5423c48efa3a66e4d010d3207.xml#id-010a5ff5423c48efa3a66e4d010d3207"/>
@@ -28,17 +28,17 @@
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-8b6286e608be43e8aff14fb70016560e"
-        targetConnections="id-a97a42c91d7c44aead5bc200883ac70b"
+        id="id-dacd1bc6cafb476ca68c2d41a2dcb4ac"
+        targetConnections="id-2a375671c7654e2bb318035cd1daf90b"
         textPosition="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-703d5f2c647948888660357b6f03bbf5"
-          source="id-8b6286e608be43e8aff14fb70016560e"
-          target="id-1b60d4a228964ea791022ff42ac1d853">
+          id="id-8b11498f003643c0921ef87faca35f93"
+          source="id-dacd1bc6cafb476ca68c2d41a2dcb4ac"
+          target="id-373bcd398a1b40409c8271e2b4e9fe6b">
         <bendpoints
             startX="140"
             startY="-10"
@@ -66,8 +66,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-1b60d4a228964ea791022ff42ac1d853"
-      targetConnections="id-703d5f2c647948888660357b6f03bbf5"
+      id="id-373bcd398a1b40409c8271e2b4e9fe6b"
+      targetConnections="id-8b11498f003643c0921ef87faca35f93"
       textPosition="1">
     <features
         name="deriveElementLineColor"
