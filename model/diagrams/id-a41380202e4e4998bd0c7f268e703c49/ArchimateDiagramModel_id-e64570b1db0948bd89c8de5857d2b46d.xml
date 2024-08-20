@@ -5,7 +5,7 @@
     id="id-e64570b1db0948bd89c8de5857d2b46d">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-8d7e478047174eb4b0870e29f567d6b5"
+      id="id-9d0aba6e1f47412a8c1e7241dafdfd43"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,18 +14,18 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4e1040c5afd04c50b5492cb28fb9e0a5"
-        source="id-8d7e478047174eb4b0870e29f567d6b5"
-        target="id-65eb9875b1924e99ba9db7ff3110dae5">
+        id="id-e0fb6f9ad9e245f194130882a93e3a19"
+        source="id-9d0aba6e1f47412a8c1e7241dafdfd43"
+        target="id-0c53aeea3572459781120758c262c4ff">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-1c0ad377bd5f470d992febd646ae91bf.xml#id-1c0ad377bd5f470d992febd646ae91bf"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0c44e80465e94267894dab21368921fb"
-        source="id-8d7e478047174eb4b0870e29f567d6b5"
-        target="id-1f243b0abf6942558a7e07e96b9d7257">
+        id="id-a805ed6b9a6946dfb04078bc0f8bd9e7"
+        source="id-9d0aba6e1f47412a8c1e7241dafdfd43"
+        target="id-a61762ca41ed4e13a40a750d0db50473">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-e133ca5061f64201bfa2d5faa373e3e5.xml#id-e133ca5061f64201bfa2d5faa373e3e5"/>
@@ -37,8 +37,8 @@
         height="201"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-65eb9875b1924e99ba9db7ff3110dae5"
-        targetConnections="id-4e1040c5afd04c50b5492cb28fb9e0a5"
+        id="id-0c53aeea3572459781120758c262c4ff"
+        targetConnections="id-e0fb6f9ad9e245f194130882a93e3a19"
         fillColor="#FFFFCC"
         alpha="200"
         textPosition="1">
@@ -50,9 +50,9 @@
           value="1"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-b2a068417a00430e8df2c0dc7fb03380"
-          source="id-65eb9875b1924e99ba9db7ff3110dae5"
-          target="id-4582d7ece1674fafa7af92588d300d72">
+          id="id-7c82f6ef9d964b5884dfe6b07c71f076"
+          source="id-0c53aeea3572459781120758c262c4ff"
+          target="id-8efa313192b34e7ebda512556910791c">
         <bendpoints
             startX="140"
             startY="-10"
@@ -76,8 +76,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-1f243b0abf6942558a7e07e96b9d7257"
-        targetConnections="id-0c44e80465e94267894dab21368921fb"
+        id="id-a61762ca41ed4e13a40a750d0db50473"
+        targetConnections="id-a805ed6b9a6946dfb04078bc0f8bd9e7"
         fillColor="#FFFFCC"
         alpha="200"
         textPosition="1">
@@ -89,9 +89,9 @@
           value="1"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-36bc48b2d56947e0b27af7f0ad878870"
-          source="id-1f243b0abf6942558a7e07e96b9d7257"
-          target="id-c45fcb8a480c467397a228d8071a9250">
+          id="id-192064a50fbe4533a1734f8229a60cf2"
+          source="id-a61762ca41ed4e13a40a750d0db50473"
+          target="id-cd03d73d0d3547a19ccd1c584a0a60e5">
         <bendpoints
             startX="140"
             startY="-10"
@@ -119,8 +119,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-4582d7ece1674fafa7af92588d300d72"
-      targetConnections="id-b2a068417a00430e8df2c0dc7fb03380"
+      id="id-8efa313192b34e7ebda512556910791c"
+      targetConnections="id-7c82f6ef9d964b5884dfe6b07c71f076"
       fillColor="#FFFFCC"
       alpha="200"
       textPosition="1">
@@ -144,8 +144,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-c45fcb8a480c467397a228d8071a9250"
-      targetConnections="id-36bc48b2d56947e0b27af7f0ad878870"
+      id="id-cd03d73d0d3547a19ccd1c584a0a60e5"
+      targetConnections="id-192064a50fbe4533a1734f8229a60cf2"
       fillColor="#FFFFCC"
       alpha="200"
       textPosition="1">
@@ -188,6 +188,9 @@
   <properties
       key="GEMMA thema"
       value="Data"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
   <properties
       key="Beleidsdomein"
       value="Organisatie"/>

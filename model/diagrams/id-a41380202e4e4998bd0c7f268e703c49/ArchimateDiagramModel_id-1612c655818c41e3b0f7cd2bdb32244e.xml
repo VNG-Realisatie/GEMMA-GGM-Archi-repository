@@ -5,7 +5,7 @@
     id="id-1612c655818c41e3b0f7cd2bdb32244e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-b621bc735d564ebcad6d1a7d8eaa6437"
+      id="id-d8aa7dc1fa624397b11d66cec85b2400"
       font="1|Segoe UI|12.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
@@ -14,9 +14,9 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-8a5d55656f7e4078aa682ef42412fe93"
-        source="id-b621bc735d564ebcad6d1a7d8eaa6437"
-        target="id-092f4eca008c40ebb80a3488f8a986de">
+        id="id-bf4532a5aede4cabad3946743fada9ea"
+        source="id-d8aa7dc1fa624397b11d66cec85b2400"
+        target="id-f0f4d6ec7ef7429781645cc9099cbb47">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-415cc77bdb59442c9fde5fd44e62478c.xml#id-415cc77bdb59442c9fde5fd44e62478c"/>
@@ -28,8 +28,8 @@
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-092f4eca008c40ebb80a3488f8a986de"
-        targetConnections="id-8a5d55656f7e4078aa682ef42412fe93"
+        id="id-f0f4d6ec7ef7429781645cc9099cbb47"
+        targetConnections="id-bf4532a5aede4cabad3946743fada9ea"
         fillColor="#FFFFCC"
         alpha="200"
         textPosition="1">
@@ -41,9 +41,9 @@
           value="1"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-60d4f60ba2484ec9b715576ee5f6515b"
-          source="id-092f4eca008c40ebb80a3488f8a986de"
-          target="id-9336a1105a95465983be3dc1a9ded93e">
+          id="id-ae653274204f45a49d1300c0b94f589f"
+          source="id-f0f4d6ec7ef7429781645cc9099cbb47"
+          target="id-dae44a86accd465cbd188a589bc682b0">
         <bendpoints
             startX="140"
             startY="-10"
@@ -71,8 +71,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-9336a1105a95465983be3dc1a9ded93e"
-      targetConnections="id-60d4f60ba2484ec9b715576ee5f6515b"
+      id="id-dae44a86accd465cbd188a589bc682b0"
+      targetConnections="id-ae653274204f45a49d1300c0b94f589f"
       fillColor="#FFFFCC"
       alpha="200"
       textPosition="1">
@@ -115,6 +115,9 @@
   <properties
       key="GEMMA thema"
       value="Data"/>
+  <properties
+      key="Publiceren"
+      value="GEMMA Online en redactie"/>
   <properties
       key="Beleidsdomein"
       value="Gemeentebegrafenissen"/>
