@@ -1,12 +1,12 @@
 <archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="heeft"
-    id="id-c470183a5bdb4e1ca10e52fa5eab3086"
+    name="wordt begrensd door"
+    id="id-414a84a257da4c2fa9f0eeb19625d4a6"
     directed="true">
   <properties
       key="GGM-guid"
-      value="{7356FAC0-F183-494b-948D-5DFC47CC5522}"/>
+      value="{7C1BBED5-4316-433a-A13D-CB353DB9B13C}"/>
   <properties
       key="GGM-datum-tijd-export"
       value="14082024-08:34:36"/>
@@ -14,15 +14,15 @@
       key="GGM-uml-type"
       value="Association"/>
   <properties
+      key="Object ID"
+      value="e20f27be-e5d0-4f30-a809-62909ad932e4"/>
+  <properties
       key="Let op"
       value="&quot;GGM-&quot; properties worden beheerd in het GGM informatiemodel"/>
-  <properties
-      key="Object ID"
-      value="c16c5f96-477a-430c-acbe-2f6290ec1ef1"/>
   <source
       xsi:type="archimate:BusinessObject"
-      href="BusinessObject_id-06c4be37a3ea4c878b89665ef189bad9.xml#id-06c4be37a3ea4c878b89665ef189bad9"/>
+      href="BusinessObject_id-d933c38758bb4e47a108b0c641484ef7.xml#id-d933c38758bb4e47a108b0c641484ef7"/>
   <target
       xsi:type="archimate:BusinessObject"
-      href="BusinessObject_id-806fefacd4ba46188c31db1b91a24b1c.xml#id-806fefacd4ba46188c31db1b91a24b1c"/>
+      href="BusinessObject_id-ca8dca9d4b3843e79ff232dec7b4c005.xml#id-ca8dca9d4b3843e79ff232dec7b4c005"/>
 </archimate:AssociationRelationship>
