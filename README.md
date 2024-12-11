@@ -4,7 +4,7 @@ Het GEMMA-GGM ArchiMate-model wordt gebruikt voor het inlezen van het GGM-inform
 
 ## GGM versie
 
-Dit model is bijgewerkt met **GGM versie 2.1**.
+Dit model is bijgewerkt tot en met **GGM versie 2.2**.
 
 ## Bekijk het GGM vanuit verschillende Perspectieven
 
