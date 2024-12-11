@@ -5,18 +5,15 @@
     id="id-d8d6f858ae714a39a9185b642808f2fd">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-03d2121d573d430e896d144e40eccd3d"
-      font="1|Segoe UI|12.0|1|GTK|1|"
+      id="id-5c44de9f75e54724a2c3001f891aa841"
+      font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
-    <features
-        name="deriveElementLineColor"
-        value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a7a95d07a65848478468d8dad8cc031d"
-        source="id-03d2121d573d430e896d144e40eccd3d"
-        target="id-ddb4ad6b5634418e9c8caba9f2fb49ba">
+        id="id-a450369020274224938b739da20276ec"
+        source="id-5c44de9f75e54724a2c3001f891aa841"
+        target="id-b1b6254168f44281a4308ae2a56b743b">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-4737911ca0334151bdf414894b3d0079.xml#id-4737911ca0334151bdf414894b3d0079"/>
@@ -28,12 +25,9 @@
         height="101"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-ddb4ad6b5634418e9c8caba9f2fb49ba"
-        targetConnections="id-a7a95d07a65848478468d8dad8cc031d"
+        id="id-b1b6254168f44281a4308ae2a56b743b"
+        targetConnections="id-a450369020274224938b739da20276ec"
         textPosition="1">
-      <features
-          name="deriveElementLineColor"
-          value="false"/>
       <bounds
           x="50"
           y="30"
@@ -71,7 +65,4 @@
   <properties
       key="Publiceren"
       value="GEMMA Online en redactie"/>
-  <properties
-      key="Beleidsdomein"
-      value="Union"/>
 </archimate:ArchimateDiagramModel>
