@@ -711,15 +711,6 @@
         value="false"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-e356471481ea48f79317d5e9ad683ec0"
-        source="id-7e0e3b4b5b5e435fb59d6ec89ee264be"
-        target="id-7a2fff2535d843458787e06d77dac499">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-ad0537635bea44d9b5e9360b8bac073c.xml#id-ad0537635bea44d9b5e9360b8bac073c"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-f1a3ebc2125d4561be9818b015aa3fbc"
         source="id-7e0e3b4b5b5e435fb59d6ec89ee264be"
         target="id-a8ad2dadf37c4946b5435511b2f5a74a">
@@ -750,25 +741,6 @@
       <archimateElement
           xsi:type="archimate:Grouping"
           href="Grouping_id-9c44be0dbe8d4c43b468f13375a94722.xml#id-9c44be0dbe8d4c43b468f13375a94722"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-7a2fff2535d843458787e06d77dac499"
-        targetConnections="id-e356471481ea48f79317d5e9ad683ec0"
-        font="1|Arial|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|0|3|2|1|34|Arial"
-        textAlignment="1"
-        fillColor="#f8f8f8">
-      <features
-          name="deriveElementLineColor"
-          value="false"/>
-      <bounds
-          x="240"
-          y="170"
-          width="161"
-          height="41"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-3c61dbbe23164ef5b0f7b3e3931d3e1a.xml#id-3c61dbbe23164ef5b0f7b3e3931d3e1a"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"

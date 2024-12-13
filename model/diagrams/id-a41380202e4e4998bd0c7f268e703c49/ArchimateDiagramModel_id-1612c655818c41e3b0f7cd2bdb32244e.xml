@@ -5,15 +5,15 @@
     id="id-1612c655818c41e3b0f7cd2bdb32244e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-5915bc0e1d944b8fb94dd9b4eb4758ee"
+      id="id-958d1af557c84ff59f2e962ea30a1ad4"
       font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-179004c403d84d68a56d1df33a0961dd"
-        source="id-5915bc0e1d944b8fb94dd9b4eb4758ee"
-        target="id-8bb2381950d2418d901237eaefde0727">
+        id="id-7995e699634347018729ddfd213e1985"
+        source="id-958d1af557c84ff59f2e962ea30a1ad4"
+        target="id-ee8ec5ffc16c4831a5caaa9fc31e0abe">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-415cc77bdb59442c9fde5fd44e62478c.xml#id-415cc77bdb59442c9fde5fd44e62478c"/>
@@ -25,8 +25,8 @@
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-8bb2381950d2418d901237eaefde0727"
-        targetConnections="id-179004c403d84d68a56d1df33a0961dd"
+        id="id-ee8ec5ffc16c4831a5caaa9fc31e0abe"
+        targetConnections="id-7995e699634347018729ddfd213e1985"
         fillColor="#FFFFCC"
         alpha="200"
         textPosition="1">
@@ -35,9 +35,9 @@
           value="1"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-e3b9cae728434e428d889f46dd5e6a7e"
-          source="id-8bb2381950d2418d901237eaefde0727"
-          target="id-88d5e494e1b44008b091e86992839db9">
+          id="id-b3dcd97514d74606b4d715fd40eb072a"
+          source="id-ee8ec5ffc16c4831a5caaa9fc31e0abe"
+          target="id-defe8f96fadf470792cbf1a9a2e8d7c8">
         <bendpoints
             startX="140"
             startY="-10"
@@ -65,8 +65,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-88d5e494e1b44008b091e86992839db9"
-      targetConnections="id-e3b9cae728434e428d889f46dd5e6a7e"
+      id="id-defe8f96fadf470792cbf1a9a2e8d7c8"
+      targetConnections="id-b3dcd97514d74606b4d715fd40eb072a"
       fillColor="#FFFFCC"
       alpha="200"
       textPosition="1">
