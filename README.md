@@ -10,7 +10,7 @@ Dit model is bijgewerkt tot en met **GGM versie 2.2**.
 
 Voor elk beleidsdomein wordt er een view gegenereerd van de GGM-objecttypen en de GEMMA-bedrijfsobjecten. Deze views zijn beschikbaar op GitHub en kunnen ook bekeken worden met de architectuurtool Archi:
 
-- Bekijk het [Archi HTML-rapport](https://vng-realisatie.github.io/GEMMA-GGM-Archi-repository/) voor alle GGM- en GEMMA-views uit dit model.
+- Bekijk het [Archi HTML-rapport](https://vng-realisatie.github.io/GEMMA-GGM-Archi-repository/?view=id-e773ff7df4634d1dbb55dc79f447ecbb) voor alle GGM- en GEMMA-views uit dit model.
 - Open deze repository in Archi. Voor instructies, ga naar [GEMMA online](https://www.gemmaonline.nl/) op de pagina [ArchiMate modelleren](https://www.gemmaonline.nl/index.php/ArchiMate_modelleren).
 
 ## Exports
