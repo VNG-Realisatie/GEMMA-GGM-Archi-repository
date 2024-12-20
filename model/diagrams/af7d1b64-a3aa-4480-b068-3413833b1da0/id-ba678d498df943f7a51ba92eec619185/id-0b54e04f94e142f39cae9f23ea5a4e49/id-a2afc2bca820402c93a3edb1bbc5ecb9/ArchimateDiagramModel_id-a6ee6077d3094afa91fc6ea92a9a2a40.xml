@@ -840,38 +840,6 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-f7d93374c2404b4d91f056639b9b95d0"
-        fillColor="#ffffff">
-      <features
-          name="deriveElementLineColor"
-          value="false"/>
-      <bounds
-          x="20"
-          y="168"
-          width="161"
-          height="41"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-f38efbddc23d4960bcdbbc834bce7ef4.xml#id-f38efbddc23d4960bcdbbc834bce7ef4"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="id-77ec47cc9a1b4ef1b96175e1cdc6277f"
-        fillColor="#ffffff">
-      <features
-          name="deriveElementLineColor"
-          value="false"/>
-      <bounds
-          x="240"
-          y="168"
-          width="161"
-          height="41"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-36c8a3ef6c8d456bac68b8231eb8d808.xml#id-36c8a3ef6c8d456bac68b8231eb8d808"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
         id="id-055687f9390d4deea15427d97d9733ff"
         fillColor="#ffffff">
       <features
@@ -895,12 +863,44 @@
           value="false"/>
       <bounds
           x="20"
-          y="228"
+          y="168"
           width="381"
-          height="41"/>
+          height="101"/>
       <referencedModel
           xsi:type="archimate:ArchimateDiagramModel"
           href="ArchimateDiagramModel_id-b799f75825064852b3f3eafdeb1da3fa.xml#id-b799f75825064852b3f3eafdeb1da3fa"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-77ec47cc9a1b4ef1b96175e1cdc6277f"
+        fillColor="#ffffff">
+      <features
+          name="deriveElementLineColor"
+          value="false"/>
+      <bounds
+          x="220"
+          y="209"
+          width="161"
+          height="41"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-36c8a3ef6c8d456bac68b8231eb8d808.xml#id-36c8a3ef6c8d456bac68b8231eb8d808"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-f7d93374c2404b4d91f056639b9b95d0"
+        fillColor="#ffffff">
+      <features
+          name="deriveElementLineColor"
+          value="false"/>
+      <bounds
+          x="35"
+          y="209"
+          width="161"
+          height="41"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-f38efbddc23d4960bcdbbc834bce7ef4.xml#id-f38efbddc23d4960bcdbbc834bce7ef4"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
