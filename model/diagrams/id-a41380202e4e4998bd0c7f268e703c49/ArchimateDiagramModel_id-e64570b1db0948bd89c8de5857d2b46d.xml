@@ -5,24 +5,24 @@
     id="id-e64570b1db0948bd89c8de5857d2b46d">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-c64266cb23f54bd6a6d30033b88b0180"
+      id="id-11cf1e92601b46f290d1dc28eb73732a"
       font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI"
       textAlignment="1"
       fillColor="#FAFAFA">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a756052f5d644e57a0d768c3467e356b"
-        source="id-c64266cb23f54bd6a6d30033b88b0180"
-        target="id-16da84e93cb84955a3fa6bd5fe31a018">
+        id="id-431f686cbde5446a8561964f36b5f1bf"
+        source="id-11cf1e92601b46f290d1dc28eb73732a"
+        target="id-27b7ab32a4be46ad965a042293e2f267">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-1c0ad377bd5f470d992febd646ae91bf.xml#id-1c0ad377bd5f470d992febd646ae91bf"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-fe0545ec65cb49fd9a950e739a1303cf"
-        source="id-c64266cb23f54bd6a6d30033b88b0180"
-        target="id-f2d8f8e38e2042ddbd99f6836b521ef7">
+        id="id-d2422e002954416f9c4580a0d8a9d34c"
+        source="id-11cf1e92601b46f290d1dc28eb73732a"
+        target="id-3be720aaa38f4269881a44490c25e841">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-e133ca5061f64201bfa2d5faa373e3e5.xml#id-e133ca5061f64201bfa2d5faa373e3e5"/>
@@ -34,8 +34,8 @@
         height="201"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-16da84e93cb84955a3fa6bd5fe31a018"
-        targetConnections="id-a756052f5d644e57a0d768c3467e356b"
+        id="id-27b7ab32a4be46ad965a042293e2f267"
+        targetConnections="id-431f686cbde5446a8561964f36b5f1bf"
         fillColor="#FFFFCC"
         alpha="200"
         textPosition="1">
@@ -44,9 +44,9 @@
           value="1"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-4cd2b53efc2947a0a12368a5fe890f0b"
-          source="id-16da84e93cb84955a3fa6bd5fe31a018"
-          target="id-dfe477160dbf4b67bda4ab2b8506aa34">
+          id="id-a6501d7be622469ab40892770a4de27f"
+          source="id-27b7ab32a4be46ad965a042293e2f267"
+          target="id-4da7f194068e411cae2318d10435f6b8">
         <bendpoints
             startX="140"
             startY="-10"
@@ -70,8 +70,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-f2d8f8e38e2042ddbd99f6836b521ef7"
-        targetConnections="id-fe0545ec65cb49fd9a950e739a1303cf"
+        id="id-3be720aaa38f4269881a44490c25e841"
+        targetConnections="id-d2422e002954416f9c4580a0d8a9d34c"
         fillColor="#FFFFCC"
         alpha="200"
         textPosition="1">
@@ -80,9 +80,9 @@
           value="1"/>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-0ba96ed37e1c455ca410a6bd7d306ed6"
-          source="id-f2d8f8e38e2042ddbd99f6836b521ef7"
-          target="id-03cb435c7158421ebfb277affacfd459">
+          id="id-fa205236a9cc436db8dad70f9e0fac7f"
+          source="id-3be720aaa38f4269881a44490c25e841"
+          target="id-8ed7f34880ad48aeaca9e811f5d17dbe">
         <bendpoints
             startX="140"
             startY="-10"
@@ -110,8 +110,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-dfe477160dbf4b67bda4ab2b8506aa34"
-      targetConnections="id-4cd2b53efc2947a0a12368a5fe890f0b"
+      id="id-4da7f194068e411cae2318d10435f6b8"
+      targetConnections="id-a6501d7be622469ab40892770a4de27f"
       fillColor="#FFFFCC"
       alpha="200"
       textPosition="1">
@@ -132,8 +132,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-03cb435c7158421ebfb277affacfd459"
-      targetConnections="id-0ba96ed37e1c455ca410a6bd7d306ed6"
+      id="id-8ed7f34880ad48aeaca9e811f5d17dbe"
+      targetConnections="id-fa205236a9cc436db8dad70f9e0fac7f"
       fillColor="#FFFFCC"
       alpha="200"
       textPosition="1">

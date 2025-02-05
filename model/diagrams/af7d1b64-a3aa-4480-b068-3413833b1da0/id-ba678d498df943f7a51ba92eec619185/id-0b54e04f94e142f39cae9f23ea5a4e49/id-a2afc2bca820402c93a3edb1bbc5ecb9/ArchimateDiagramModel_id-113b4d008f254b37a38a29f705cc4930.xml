@@ -1169,39 +1169,11 @@
         height="161"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-0b71ff7e6349432da14efd4d5d9b6698"
-        targetConnections="id-1c877d07fd0943a1898e9b8f5799620c"
-        textAlignment="1">
-      <bounds
-          x="45"
-          y="60"
-          width="191"
-          height="26"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-bdbd451f98f248cc9fb59a7c1285f77f.xml#id-bdbd451f98f248cc9fb59a7c1285f77f"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-c2601836eb034123b1ef36d0e26fc221"
-        targetConnections="id-5707843de87b4f91a11da9730649c94c"
-        textAlignment="1">
-      <bounds
-          x="45"
-          y="30"
-          width="191"
-          height="26"/>
-      <archimateElement
-          xsi:type="archimate:Grouping"
-          href="Grouping_id-930a1d6c89b84095a2f4f2cb1ca32ab6.xml#id-930a1d6c89b84095a2f4f2cb1ca32ab6"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ad48c83716354c958e7286eef804b59f"
         targetConnections="id-7da5cdaa00dc48369fedb6bf856ebca3"
         textAlignment="1">
       <bounds
-          x="45"
+          x="55"
           y="90"
           width="191"
           height="26"/>
@@ -1211,17 +1183,45 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c2601836eb034123b1ef36d0e26fc221"
+        targetConnections="id-5707843de87b4f91a11da9730649c94c"
+        textAlignment="1">
+      <bounds
+          x="55"
+          y="30"
+          width="191"
+          height="26"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-930a1d6c89b84095a2f4f2cb1ca32ab6.xml#id-930a1d6c89b84095a2f4f2cb1ca32ab6"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a4c424f706ff4194848f416bf0d3bcbd"
         targetConnections="id-8ea388973ebb44189b9fa415c3d2c89b"
         textAlignment="1">
       <bounds
-          x="45"
+          x="55"
           y="125"
           width="191"
           height="26"/>
       <archimateElement
           xsi:type="archimate:Grouping"
           href="Grouping_id-f231eefa54844f6b9fec90920e1e2ccd.xml#id-f231eefa54844f6b9fec90920e1e2ccd"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-0b71ff7e6349432da14efd4d5d9b6698"
+        targetConnections="id-1c877d07fd0943a1898e9b8f5799620c"
+        textAlignment="1">
+      <bounds
+          x="55"
+          y="60"
+          width="191"
+          height="26"/>
+      <archimateElement
+          xsi:type="archimate:Grouping"
+          href="Grouping_id-bdbd451f98f248cc9fb59a7c1285f77f.xml#id-bdbd451f98f248cc9fb59a7c1285f77f"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -1787,7 +1787,7 @@
         targetConnections="id-9fba221c55c447778363539d75dc0fc3"
         textAlignment="1">
       <bounds
-          x="45"
+          x="50"
           y="30"
           width="191"
           height="26"/>
@@ -1801,7 +1801,7 @@
         targetConnections="id-8db3fe0f817f4003b9194d12122f2167"
         textAlignment="1">
       <bounds
-          x="45"
+          x="50"
           y="65"
           width="191"
           height="26"/>
