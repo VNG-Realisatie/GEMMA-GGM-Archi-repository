@@ -1,3 +1,7 @@
+| Eigenaar | Ingevuld door |
+| --- | --- |
+| Kennis Centrum Architectuur | Mark Backer |
+<hr/>
 # GEMMA-GGM Archi-repository
 
 Het GEMMA-GGM ArchiMate-model wordt gebruikt voor het inlezen van het GGM-informatiemodel. Op basis van dit model worden de GEMMA-bedrijfsobjectmodellen afgeleid en onderhouden. Een deel van dit model wordt geïntegreerd in het GEMMA-model. De resultaten worden gepubliceerd op [GEMMA online](https://www.gemmaonline.nl/index.php/Bedrijfsobjecten).
